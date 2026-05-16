@@ -10,7 +10,7 @@ import {
   GeoActivityData,
   GeoStatsData,
 } from '../gql/generated';
-import { FileCacheService } from '../../common/file-cache-plugin/services/file-cache.service';
+import { FileCacheService } from '../../../common/file-cache-plugin/services/file-cache.service';
 interface ApiResponse<T> {
   data: T;
   metadata?: { average?: number; total?: number; avg_hour?: number; amount?: number };

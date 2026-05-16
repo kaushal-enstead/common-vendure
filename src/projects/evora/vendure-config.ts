@@ -1,6 +1,5 @@
 import type { ProjectVendureConfig } from '../types';
 import { FileCachePlugin } from '../../plugins/common/file-cache-plugin/file-cache.plugin';
-import { GeoAnalyticsPlugin } from '../../plugins/geoanalitycs-plugin/geoanalitycs.plugin';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';
@@ -28,7 +27,6 @@ export const evoraConfig: ProjectVendureConfig = {
   },
   plugins: [
     FileCachePlugin.init({ folderName: 'file-cache' }),
-    GeoAnalyticsPlugin.init({}),
     AssetServerPlugin.init({
       route: 'assets',
       assetUploadDir: path.join(process.cwd(), 'static/evora/assets'),

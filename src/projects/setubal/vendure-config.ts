@@ -1,6 +1,6 @@
 import type { ProjectVendureConfig } from '../types';
-import { FileCachePlugin } from '../../plugins/common/file-cache-plugin/file-cache.plugin';
-import { GeoAnalyticsPlugin } from '../../plugins/geoanalitycs-plugin/geoanalitycs.plugin';
+import { FileCachePlugin } from '../../plugins/common';
+import { GeoAnalyticsPlugin } from '../../plugins/setubal';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';

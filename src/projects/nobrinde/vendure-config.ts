@@ -1,6 +1,5 @@
 import type { ProjectVendureConfig } from '../types';
 import { FileCachePlugin } from '../../plugins/common/file-cache-plugin/file-cache.plugin';
-import { GeoAnalyticsPlugin } from '../../plugins/geoanalitycs-plugin/geoanalitycs.plugin';
 import { Channel, TransactionalConnection, UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';
@@ -54,7 +53,6 @@ export const nobrindeConfig: ProjectVendureConfig = {
   },
   plugins: [
     FileCachePlugin.init({ folderName: 'file-cache' }),
-    GeoAnalyticsPlugin.init({}),
     AssetServerPlugin.init({
       route: 'assets',
       assetUploadDir: path.join(process.cwd(), 'static/nobrinde/assets'),

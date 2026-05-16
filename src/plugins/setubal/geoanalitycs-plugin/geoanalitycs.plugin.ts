@@ -5,7 +5,7 @@ import { PluginInitOptions } from './types';
 import { GeoAnalyticsService } from './services/geoanalitycs.service';
 import { GeoAnalyticsAdminResolver } from './api/geo-analitycs-admin.resolver';
 import { adminApiExtensions } from './api/api-extensions';
-import { FileCachePluginModule } from '../common';
+import { FileCachePluginModule } from '../../common';
 
 @VendurePlugin({
   imports: [PluginCommonModule, FileCachePluginModule],
