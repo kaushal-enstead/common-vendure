@@ -1,0 +1,32 @@
+<mjml>
+  <mj-body background-color="#f4f4f4">
+    {{> header }}
+    {{> title title="Pending Cart" }}
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text>
+          Hi {{ customerName }},
+          <br />
+          We noticed you have items in your cart and haven’t completed your purchase yet.
+        </mj-text>
+
+        <mj-text> Click the button below to continue your order: </mj-text>
+
+        <mj-button background-color="#0d6efd" color="#fff" href="{{ cartUrl }}"> Continue Order </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Please do not reply to this email as it is an automatic reply and will not be read*<br />
+          We remind you of our service channels:<br />
+          Support: geral@setubalconnect.pt
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    {{> footer }}
+  </mj-body>
+</mjml>

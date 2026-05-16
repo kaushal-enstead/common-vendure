@@ -1,0 +1,35 @@
+<mjml>
+  <mj-body>
+    {{> header }}
+    {{> title title="Registo de Estafeta Rejeitado" }}
+
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="16px">
+          Olá {{ name }},
+          <br />
+          Infelizmente, o teu registo como estafeta não foi aprovado.
+        </mj-text>
+
+        <mj-text font-size="16px">
+          Motivo:<br />
+          <strong>{{ reason }}</strong>
+        </mj-text>
+
+        <mj-text font-size="14px"> Se tiveres alguma dúvida, contacta o nosso suporte. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Por favor, não responda a este e-mail, pois é uma resposta automática e não será lida*<br />
+          Lembramos os nossos canais de atendimento:<br />
+          Suporte: geral@setubalconnect.pt
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    {{> footer }}
+  </mj-body>
+</mjml>

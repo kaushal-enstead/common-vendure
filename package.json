@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "populate": "ts-node ./src/populate.ts",
     "ts": "ts-node -r ./src/setup-env.ts",
+    "populate": "npm run ts -- ./src/populate.ts",
     "dev:server": "nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
     "dev:server:evora": "ENV_PATH=.env.evora nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
     "dev:server:setubal": "ENV_PATH=.env.setubal nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
@@ -42,6 +42,7 @@
     "@graphql-codegen/client-preset": "^6.0.0",
     "@graphql-codegen/typescript": "^6.0.1",
     "@vendure/cli": "3.6.3",
+    "@vendure/create": "^3.6.3",
     "concurrently": "9.2.1",
     "nodemon": "^3.1.14",
     "rimraf": "^6.1.3",

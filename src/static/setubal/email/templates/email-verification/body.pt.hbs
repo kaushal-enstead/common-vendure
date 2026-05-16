@@ -1,0 +1,47 @@
+<mjml>
+  <mj-body>
+    {{> header }}
+    {{> title title="Verifica o teu email" }}
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Caro {{ order.customer.firstName }} {{ order.customer.lastName }},<br />
+          Obrigado pelo seu registo no marketplace Setúbal Connect.
+        </mj-text>
+
+        <mj-text>
+          Clique no botão abaixo para validar o seu endereço de e-mail e concluir o processo de registo.
+          <br />
+          Se não efectuou este pedido ignore com segurança este e-mail - nada foi alterado na sua conta.
+        </mj-text>
+
+        <mj-button
+          href="{{ verifyEmailAddressUrl }}?token={{ verificationToken }}"
+          background-color="#375a67"
+          color="white"
+          font-size="16px"
+          font-weight="bold"
+          border-radius="4px"
+          padding="12px 24px"
+        >
+          Verificar Email
+        </mj-button>
+
+        <mj-text font-size="14px" color="#666666"> Este link de verificação expira em 24 horas. </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Por favor, não responda a este e-mail, pois é uma resposta automática e não será lida*<br />
+          Lembramos os nossos canais de atendimento:<br />
+          Suporte: geral@setubalconnect.pt
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    {{> footer }}
+  </mj-body>
+</mjml>

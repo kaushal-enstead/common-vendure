@@ -12,6 +12,7 @@ import { GraphiqlPlugin } from '@vendure/graphiql-plugin';
 import path from 'path';
 import { getProject } from './projects';
 import { mergeProjectConfig } from './projects/merge';
+import { QueryRunnerPlugin } from './plugins/common';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 const serverPort = +process.env.PORT || 3000;
@@ -95,6 +96,7 @@ const baseConfig: VendureConfig = {
       route: 'dashboard',
       appDir: IS_DEV ? path.join(__dirname, '../dist/dashboard') : path.join(__dirname, 'dashboard'),
     }),
+    QueryRunnerPlugin.init(),
   ],
 };
 

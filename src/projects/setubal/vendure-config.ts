@@ -1,4 +1,7 @@
 import type { ProjectVendureConfig } from '../types';
+import { FileCachePlugin } from '../../plugins/common/file-cache-plugin/file-cache.plugin';
+import { GeoAnalyticsPlugin } from '../../plugins/geoanalitycs-plugin/geoanalitycs.plugin';
+import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';
 import { defaultEmailHandlers, EmailPlugin } from '@vendure/email-plugin';
@@ -22,10 +25,15 @@ export const setubalConfig: ProjectVendureConfig = {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
   },
+  entityOptions: {
+    entityIdStrategy: new UuidIdStrategy(),
+  },
   plugins: [
+    FileCachePlugin.init({ folderName: 'file-cache' }),
+    GeoAnalyticsPlugin.init({}),
     AssetServerPlugin.init({
       route: 'assets',
-      assetUploadDir: path.join(__dirname, '../../static/assets/setubal'),
+      assetUploadDir: path.join(__dirname, '../../static/setubal/assets'),
       assetUrlPrefix: (ctx, identifier) => assetUrlPrefix(ctx, identifier),
     }),
     EmailPlugin.init({
@@ -33,13 +41,13 @@ export const setubalConfig: ProjectVendureConfig = {
         ? {
             devMode: true,
             route: 'mailbox',
-            outputPath: path.join(process.cwd(), 'static/email/test-emails'),
+            outputPath: path.join(process.cwd(), 'static/setubal/email/test-emails'),
           }
         : {
             transport: {
               type: 'smtp',
               host: process.env.MAIL_HOST,
-              port: process.env.MAIL_PORT || 587,
+              port: process.env.MAIL_PORT,
               auth: {
                 user: process.env.MAIL_USERNAME,
                 pass: process.env.MAIL_PASSWORD,
@@ -92,7 +100,7 @@ export const setubalConfig: ProjectVendureConfig = {
         // ...CourierPlugin.emailHandlers,
       ],
       templateLoader: new CustomLanguageAwareTemplateLoader(
-        path.join(__dirname, '../static/email/templates'),
+        path.join(__dirname, '../static/setubal/email/templates'),
       ),
       globalTemplateVars: {
         adminLoginUrl: process.env.API_HOST + '/admin/login',

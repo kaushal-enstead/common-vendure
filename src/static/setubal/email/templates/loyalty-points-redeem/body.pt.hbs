@@ -1,0 +1,36 @@
+<mjml>
+  <mj-body>
+    {{> header title="Resgatou Pontos de Fidelidade!"  }}
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Olá {{ customerName }},<br />
+          Acabou de resgatar <strong>{{ points }}</strong> pontos de fidelidade na sua última encomenda (ID:
+          {{ orderId }}).
+        </mj-text>
+
+        <mj-text font-size="18px" font-weight="bold" color="#0d6efd">
+          Saldo de Pontos Restante: <strong>{{ balance }}</strong>
+        </mj-text>
+
+        <mj-text>
+          Obrigado por utilizar os seus pontos de fidelidade! Agradecemos o seu apoio contínuo e esperamos que
+          aproveite as suas recompensas.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Por favor, não responda a este e-mail, pois é uma resposta automática e não será lida*<br />
+          Lembramos os nossos canais de atendimento:<br />
+          Suporte: geral@setubalconnect.pt
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    {{> footer }}
+  </mj-body>
+</mjml>

@@ -45,9 +45,7 @@ async function main() {
     const migrations = config.dbConnectionOptions.migrations as string[];
     const outputDir = path.dirname(migrations[0]);
     const result = await generateMigration(config, { name, outputDir });
-    s.stop(
-      typeof result === 'string' ? `Generated: ${result}` : 'No schema changes — nothing generated',
-    );
+    s.stop(typeof result === 'string' ? `Generated: ${result}` : 'No schema changes — nothing generated');
   }
 
   if (action === 'revert') {
