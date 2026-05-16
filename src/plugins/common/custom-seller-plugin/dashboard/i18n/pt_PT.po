@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-04-22 12:52+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:98
+msgid "Add hours"
+msgstr "Adicionar horas"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:125
+msgid "Add item to list"
+msgstr "Adicionar item à lista"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:63
+msgid "Approved"
+msgstr "Aprovado"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:29
+msgid "Choose the catalog collection for this seller (stored in custom fields)."
+msgstr "Escolha a coleção de catálogo para este vendedor (armazenada em campos personalizados)."
+
+#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:138
+msgid "Closing"
+msgstr "Fecho"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:102
+msgid "Closing hour"
+msgstr "Hora de fecho"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:116
+msgid "Collection"
+msgstr "Coleção"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:64
+msgid "Disapproved"
+msgstr "Reprovado"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:51
+msgid "Enter reason for disapproval:"
+msgstr "Introduza o motivo de reprovação:"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:95
+msgid "Facet values"
+msgstr "Valores de faceta"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:25
+msgid "Failed to approve seller"
+msgstr "Falha ao aprovar vendedor"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:34
+msgid "Failed to reject seller"
+msgstr "Falha ao rejeitar vendedor"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:98
+msgid "Loading facet values…"
+msgstr "A carregar valores de faceta…"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:45
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:129
+msgid "None"
+msgstr "Nenhum"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:125
+msgid "Opening"
+msgstr "Abertura"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:89
+msgid "Opening hour"
+msgstr "Hora de abertura"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:62
+msgid "Pending"
+msgstr "Pendente"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:40
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:126
+msgid "Select collection"
+msgstr "Selecionar coleção"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:112
+#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:76
+msgid "Select day"
+msgstr "Selecionar dia"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:22
+msgid "Seller approved"
+msgstr "Vendedor aprovado"
+
+#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:31
+msgid "Seller rejected"
+msgstr "Vendedor rejeitado"
