@@ -6,7 +6,6 @@ import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
-console.log('process.cwd()', process.cwd());
 export const alcobacaConfig: ProjectVendureConfig = {
   migrationPath: 'src/migrations/alcobaca',
 

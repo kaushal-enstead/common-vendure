@@ -10,6 +10,10 @@ import { BudgetPlugin, CustomerSupportPlugin, LoyaltyPointsPlugin } from '../../
 import { ChannelPersonalizationPlugin } from '../../plugins/nobrinde/channel-personalization/channel-personalization.plugin';
 import { EasypayPlugin } from '../../plugins/nobrinde/easypay-plugin/easypay.plugin';
 import { KitPlugin } from '../../plugins/nobrinde/kits/kits.plugin';
+import { UserCreditPlugin } from '../../plugins/nobrinde/user-credit/user-credit.plugin';
+import { WireTransferPlugin } from '../../plugins/nobrinde/wire-transfer/wire-transfer.plugin';
+import { NobrindeEntityPlugin } from '../../plugins/nobrinde/nobrinde-entity/nobrinde-entity.plugin';
+import { CustomShippingPlugin } from '../../plugins/nobrinde/custom-shipping-plugin/custom-shipping.plugin';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 const serverPort = +process.env.PORT || 3000;
@@ -213,5 +217,9 @@ export const nobrindeConfig: ProjectVendureConfig = {
       accountId: process.env.EASYPAY_ACCOUNT_ID as string,
     }),
     KitPlugin.init({}),
+    UserCreditPlugin.init(),
+    WireTransferPlugin.init({}),
+    NobrindeEntityPlugin.init({}),
+    CustomShippingPlugin.init(),
   ],
 };

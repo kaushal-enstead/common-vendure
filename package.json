@@ -47,12 +47,16 @@
     "@vendure/email-plugin": "3.6.3",
     "@vendure/graphiql-plugin": "3.6.3",
     "dotenv": "17.4.2",
-    "mysql2": "3.22.3"
+    "mssql": "^12.5.4",
+    "mysql2": "3.22.3",
+    "pdfkit": "^0.18.0",
+    "pg": "^8.20.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^7.0.0",
     "@graphql-codegen/client-preset": "^6.0.0",
     "@graphql-codegen/typescript": "^6.0.1",
+    "@types/pdfkit": "^0.17.6",
     "@vendure/cli": "3.6.3",
     "@vendure/create": "^3.6.3",
     "concurrently": "9.2.1",
