@@ -7,6 +7,7 @@ import { defaultEmailHandlers, EmailPlugin } from '@vendure/email-plugin';
 import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
 import { BudgetPlugin, CustomerSupportPlugin, LoyaltyPointsPlugin } from '../../plugins/nobrinde';
+import { ChannelPersonalizationPlugin } from '../../plugins/nobrinde/channel-personalization/channel-personalization.plugin';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 const serverPort = +process.env.PORT || 3000;
@@ -203,5 +204,6 @@ export const nobrindeConfig: ProjectVendureConfig = {
     CustomerSupportPlugin.init({}),
     LoyaltyPointsPlugin.init({ couponCode: 'LOYALTY' }),
     BudgetPlugin.init({}),
+    ChannelPersonalizationPlugin.init(),
   ],
 };
