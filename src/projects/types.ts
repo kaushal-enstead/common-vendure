@@ -4,6 +4,7 @@ export enum ProjectName {
   Evora = 'evora',
   Setubal = 'setubal',
   Alcobaca = 'alcobaca',
+  Nobrinde = 'nobrinde',
 }
 
 export type ProjectVendureConfig = Partial<VendureConfig> & {
