@@ -13,89 +13,89 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:98
+#: src/plugins/common/custom-seller-plugin/dashboard/components/days-input.tsx:98
 msgid "Add hours"
 msgstr "Add hours"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:125
+#: src/plugins/common/custom-seller-plugin/dashboard/components/struct-days-input.tsx:125
 msgid "Add item to list"
 msgstr "Add item to list"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:63
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:63
 msgid "Approved"
 msgstr "Approved"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:29
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:29
 msgid "Choose the catalog collection for this seller (stored in custom fields)."
 msgstr "Choose the catalog collection for this seller (stored in custom fields)."
 
-#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:138
+#: src/plugins/common/custom-seller-plugin/dashboard/components/days-input.tsx:138
 msgid "Closing"
 msgstr "Closing"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:102
+#: src/plugins/common/custom-seller-plugin/dashboard/components/struct-days-input.tsx:102
 msgid "Closing hour"
 msgstr "Closing hour"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:116
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:116
 msgid "Collection"
 msgstr "Collection"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:64
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:64
 msgid "Disapproved"
 msgstr "Disapproved"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:51
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:51
 msgid "Enter reason for disapproval:"
 msgstr "Enter reason for disapproval:"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:95
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:95
 msgid "Facet values"
 msgstr "Facet values"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:25
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:25
 msgid "Failed to approve seller"
 msgstr "Failed to approve seller"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:34
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:34
 msgid "Failed to reject seller"
 msgstr "Failed to reject seller"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:98
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:98
 msgid "Loading facet values…"
 msgstr "Loading facet values…"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:45
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:129
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:45
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:129
 msgid "None"
 msgstr "None"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:125
+#: src/plugins/common/custom-seller-plugin/dashboard/components/days-input.tsx:125
 msgid "Opening"
 msgstr "Opening"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:89
+#: src/plugins/common/custom-seller-plugin/dashboard/components/struct-days-input.tsx:89
 msgid "Opening hour"
 msgstr "Opening hour"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:62
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:62
 msgid "Pending"
 msgstr "Pending"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:40
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:126
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-collection-block.tsx:40
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-facets-collections-block.tsx:126
 msgid "Select collection"
 msgstr "Select collection"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/days-input.tsx:112
-#: src/plugins/custom-seller-plugin/dashboard/components/struct-days-input.tsx:76
+#: src/plugins/common/custom-seller-plugin/dashboard/components/days-input.tsx:112
+#: src/plugins/common/custom-seller-plugin/dashboard/components/struct-days-input.tsx:76
 msgid "Select day"
 msgstr "Select day"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:22
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:22
 msgid "Seller approved"
 msgstr "Seller approved"
 
-#: src/plugins/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:31
+#: src/plugins/common/custom-seller-plugin/dashboard/components/seller-approval-status-cell.tsx:31
 msgid "Seller rejected"
 msgstr "Seller rejected"

@@ -13,39 +13,39 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:99
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:99
 msgid "Clear"
 msgstr "Clear"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:144
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:144
 msgid "DROP and other highly destructive or privileged operations are still blocked for security."
 msgstr "DROP and other highly destructive or privileged operations are still blocked for security."
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:95
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:95
 msgid "Execute Query"
 msgstr "Execute Query"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:93
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:93
 msgid "Executing..."
 msgstr "Executing..."
 
-#: src/plugins/query-runner/dashboard/routes/components/query-results-table.tsx:41
+#: src/plugins/common/query-runner/dashboard/routes/components/query-results-table.tsx:43
 msgid "No results to display"
 msgstr "No results to display"
 
-#: src/plugins/query-runner/dashboard/routes/components/query-results-table.tsx:74
+#: src/plugins/common/query-runner/dashboard/routes/components/query-results-table.tsx:78
 msgid "No rows returned"
 msgstr "No rows returned"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:72
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:72
 msgid "Query Runner"
 msgstr "Query Runner"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:109
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:109
 msgid "Results"
 msgstr "Results"
 
-#: src/plugins/query-runner/dashboard/routes/components/code-editor.tsx:28
+#: src/plugins/common/query-runner/dashboard/routes/components/code-editor.tsx:28
 msgid ""
 "SELECT * FROM customer LIMIT 10;\n"
 "-- Or try: INSERT, UPDATE, DELETE, CREATE"
@@ -54,18 +54,18 @@ msgstr ""
 "-- Or try: INSERT, UPDATE, DELETE, CREATE"
 
 #. placeholder {0}: rows.length
-#: src/plugins/query-runner/dashboard/routes/components/query-results-table.tsx:94
+#: src/plugins/common/query-runner/dashboard/routes/components/query-results-table.tsx:98
 msgid "Show all {0} rows"
 msgstr "Show all {0} rows"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:85
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:85
 msgid "SQL Query"
 msgstr "SQL Query"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:133
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:133
 msgid "Supported Query Types"
 msgstr "Supported Query Types"
 
-#: src/plugins/query-runner/dashboard/routes/query-runner.tsx:139
+#: src/plugins/common/query-runner/dashboard/routes/query-runner.tsx:139
 msgid "Supported query types: SELECT, INSERT, UPDATE, DELETE, CREATE, SHOW, TRUNCATE and ALTER."
 msgstr "Supported query types: SELECT, INSERT, UPDATE, DELETE, CREATE, SHOW, TRUNCATE and ALTER."

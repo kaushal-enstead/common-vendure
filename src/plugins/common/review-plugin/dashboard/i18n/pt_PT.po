@@ -13,59 +13,59 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:175
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:175
 msgid "Booking"
 msgstr "Reserva"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:235
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:235
 msgid "Comment"
 msgstr "Comentário"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:191
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:191
 msgid "Customer"
 msgstr "Cliente"
 
-#: src/plugins/review-plugin/dashboard/bulk-actions.tsx:12
+#: src/plugins/common/review-plugin/dashboard/bulk-actions.tsx:12
 msgid "Delete"
 msgstr "Eliminar"
 
-#: src/plugins/review-plugin/dashboard/bulk-actions.tsx:13
+#: src/plugins/common/review-plugin/dashboard/bulk-actions.tsx:13
 msgid "Delete selected reviews?"
 msgstr "Eliminar avaliações selecionadas?"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:76
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:76
 msgid "Failed to update review"
 msgstr "Falha ao atualizar avaliação"
 
-#: src/plugins/review-plugin/dashboard/pages/review-lists.tsx:182
+#: src/plugins/common/review-plugin/dashboard/pages/review-lists.tsx:182
 msgid "No"
 msgstr "Não"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:135
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:135
 msgid "Product"
 msgstr "Produto"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:112
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:112
 msgid "Published"
 msgstr "Publicado"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:214
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:214
 msgid "Rating (1–5)"
 msgstr "Avaliação (1–5)"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:118
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:118
 msgid "Rating preview"
 msgstr "Pré-visualização da avaliação"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:85
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:85
 msgid "Review"
 msgstr "Avaliação"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:131
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:131
 msgid "Review context"
 msgstr "Contexto da avaliação"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:72
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:72
 msgid "Review updated"
 msgstr "Avaliação atualizada"
 
@@ -73,22 +73,22 @@ msgstr "Avaliação atualizada"
 #~ msgid "Reviews"
 #~ msgstr "Avaliações"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:155
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:155
 msgid "Shop"
 msgstr "Loja"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:77
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:77
 msgid "Unknown error"
 msgstr "Erro desconhecido"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:102
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:102
 msgid "Update"
 msgstr "Atualizar"
 
-#: src/plugins/review-plugin/dashboard/pages/review-detail.tsx:108
+#: src/plugins/common/review-plugin/dashboard/pages/review-detail.tsx:108
 msgid "Visibility & rating"
 msgstr "Visibilidade e avaliação"
 
-#: src/plugins/review-plugin/dashboard/pages/review-lists.tsx:182
+#: src/plugins/common/review-plugin/dashboard/pages/review-lists.tsx:182
 msgid "Yes"
 msgstr "Sim"

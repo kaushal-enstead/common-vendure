@@ -1,7 +1,36 @@
 import { defineConfig } from '@lingui/cli';
 
 const projectCatalogs = {
-  evora: [],
+  evora: [
+    {
+      path: './src/plugins/common/booking-plugin/dashboard/i18n/{locale}',
+      include: ['./src/plugins/common/booking-plugin/dashboard/**'],
+    },
+    {
+      path: './src/plugins/common/custom-seller-plugin/dashboard/i18n/{locale}',
+      include: ['./src/plugins/common/custom-seller-plugin/dashboard/**'],
+    },
+    {
+      path: './src/plugins/common/geoanalytics-plugin/dashboard/i18n/{locale}',
+      include: ['./src/plugins/common/geoanalytics-plugin/dashboard/**'],
+    },
+    {
+      path: './src/plugins/common/pre-order-inquiry-plugin/dashboard/i18n/{locale}',
+      include: ['./src/plugins/common/pre-order-inquiry-plugin/dashboard/**'],
+    },
+    {
+      path: './src/plugins/common/qr-code/dashboard/i18n/{locale}',
+      include: ['./src/plugins/common/qr-code/dashboard/**'],
+    },
+    {
+      path: './src/plugins/common/query-runner/dashboard/i18n/{locale}',
+      include: ['./src/plugins/common/query-runner/dashboard/**'],
+    },
+    {
+      path: './src/plugins/common/review-plugin/dashboard/i18n/{locale}',
+      include: ['./src/plugins/common/review-plugin/dashboard/**'],
+    },
+  ],
   alcobaca: [],
   setubal: [
     {

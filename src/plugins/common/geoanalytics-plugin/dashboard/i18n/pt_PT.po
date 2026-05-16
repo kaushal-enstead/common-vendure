@@ -13,11 +13,11 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:64
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:56
 msgid "Activity"
 msgstr "Atividade"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:260
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:268
 msgid "Activity and visitor profile"
 msgstr "Atividade e perfil de visitante"
 
@@ -25,55 +25,55 @@ msgstr "Atividade e perfil de visitante"
 #~ msgid "Analytics"
 #~ msgstr "Análises"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:144
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:144
 msgid "Analytics dashboard"
 msgstr "Painel de análise"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:176
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:180
 msgid "Apply"
 msgstr "Aplicar"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:127
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:119
 msgid "Average length of stay"
 msgstr "Duração média de estadia"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:198
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:206
 msgid "Busiest day"
 msgstr "Dia mais movimentado"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:232
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:240
 msgid "Busiest day (last month)"
 msgstr "Dia mais movimentado (mês passado)"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:203
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:211
 msgid "Busiest hour"
 msgstr "Hora mais movimentada"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:237
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:245
 msgid "Busiest hour (last month)"
 msgstr "Hora mais movimentada (mês passado)"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:225
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:233
 msgid "Comparison with last month"
 msgstr "Comparação com o mês passado"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:195
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:202
 msgid "Current filtered month"
 msgstr "Mês filtrado atual"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:77
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:69
 msgid "Day"
 msgstr "Dia"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:67
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:59
 msgid "Detail of visitor activity over the period"
 msgstr "Detalhe da atividade de visitantes no período"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:285
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:293
 msgid "Duration"
 msgstr "Duração"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:263
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:271
 msgid "Explore daily volume, origin distribution and length of stay."
 msgstr "Explorar volume diário, distribuição de origem e duração de estadia."
 
@@ -82,106 +82,106 @@ msgstr "Explorar volume diário, distribuição de origem e duração de estadia
 #~ msgid "geoanalytics"
 #~ msgstr "geoanalytics"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:146
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:147
 msgid "GeoAnalytics"
 msgstr "GeoAnalítica"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:228
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:236
 msgid "Historical reference"
 msgstr "Referência histórica"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:300
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:308
 msgid "Hourly pattern"
 msgstr "Padrão horário"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:58
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:58
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:50
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:50
 msgid "Hours"
 msgstr "Horas"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:48
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:53
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:77
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:91
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:40
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:54
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:89
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:113
 msgid "Internationals"
 msgstr "Internacionais"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:47
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:49
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:73
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:87
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:39
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:50
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:81
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:105
 msgid "Nationals"
 msgstr "Nacionais"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:83
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:75
 msgid "Night"
 msgstr "Noite"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:120
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:112
 msgid "No. of visits"
 msgstr "N.º de visitas"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:126
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:118
 msgid "Number of visits"
 msgstr "Número de visitas"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:148
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:150
 msgid "Overview of presence, activity and visitor behaviour."
 msgstr "Visão geral de presença, atividade e comportamento de visitantes."
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:152
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:155
 msgid "Period:"
 msgstr "Período:"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:180
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:184
 msgid "Refresh"
 msgstr "Atualizar"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:65
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:69
 msgid "Regulars"
 msgstr "Habituais"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:60
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:62
 msgid "Residents"
 msgstr "Residentes"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:114
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:114
 msgid "Select a month and year"
 msgstr "Selecionar um mês e ano"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:194
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:199
 msgid "Selected period"
 msgstr "Período selecionado"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:46
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:38
 msgid "Total"
 msgstr "Total"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:28
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:35
 msgid "Total presence"
 msgstr "Presença total"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:84
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:100
 msgid "Tourists"
 msgstr "Turistas"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:303
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:311
 msgid "Visit evolution by hour in the selected period."
 msgstr "Evolução de visitas por hora no período selecionado."
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:290
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:298
 msgid "Visitor origin"
 msgstr "Origem do visitante"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/components/presence-card.tsx:70
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/presence-card.tsx:76
 msgid "Visitors"
 msgstr "Visitantes"
 
 #. placeholder {0}: originLabel[origin]
-#: src/plugins/geoanalitycs-plugin/dashboard/components/activity-section.tsx:101
+#: src/plugins/common/geoanalytics-plugin/dashboard/components/activity-section.tsx:93
 msgid "Visits per day ({0})"
 msgstr "Visitas por dia ({0})"
 
-#: src/plugins/geoanalitycs-plugin/dashboard/pages/geoanalytics-dashboard.tsx:307
+#: src/plugins/common/geoanalytics-plugin/dashboard/pages/geoanalytics-dashboard.tsx:315
 msgid "Visits per hour"
 msgstr "Visitas por hora"

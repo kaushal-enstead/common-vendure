@@ -13,23 +13,23 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:395
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:395
 msgid "Add facet value…"
 msgstr "Adicionar valor de faceta…"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:211
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:211
 msgid "Add vendor message"
 msgstr "Adicionar mensagem de fornecedor"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:724
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:724
 msgid "Assets"
 msgstr "Recursos"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:431
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:431
 msgid "Available days"
 msgstr "Dias disponíveis"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:453
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:453
 msgid "Available slots"
 msgstr "Slots disponíveis"
 
@@ -37,241 +37,241 @@ msgstr "Slots disponíveis"
 #~ msgid "Booking"
 #~ msgstr "Reserva"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:108
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:127
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:108
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:127
 msgid "Booking order"
 msgstr "Encomenda de reserva"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-list.tsx:53
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-list.tsx:53
 msgid "Booking orders"
 msgstr "Encomendas de reserva"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:575
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:575
 msgid "Collection"
 msgstr "Coleção"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:576
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:576
 msgid "Collection is required"
 msgstr "A coleção é obrigatória"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:185
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:185
 msgid "Comments"
 msgstr "Comentários"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:372
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:372
 msgid "Create"
 msgstr "Criar"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:168
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:168
 msgid "Customer"
 msgstr "Cliente"
 
-#: src/plugins/booking-plugin/dashboard/bulk-actions.tsx:12
+#: src/plugins/common/booking-plugin/dashboard/bulk-actions.tsx:12
 msgid "Delete"
 msgstr "Eliminar"
 
-#: src/plugins/booking-plugin/dashboard/bulk-actions.tsx:13
+#: src/plugins/common/booking-plugin/dashboard/bulk-actions.tsx:13
 msgid "Delete selected services?"
 msgstr "Eliminar serviços selecionados?"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:600
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:693
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:600
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:693
 msgid "Description"
 msgstr "Descrição"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:538
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:538
 msgid "Details"
 msgstr "Detalhes"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:421
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:421
 msgid "Enabled"
 msgstr "Ativado"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:378
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:378
 msgid "Facets"
 msgstr "Facetas"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:247
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:247
 msgid "Failed to create"
 msgstr "Falha ao criar"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:261
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:261
 msgid "Failed to update"
 msgstr "Falha ao atualizar"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:647
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:647
 msgid "Form selection"
 msgstr "Seleção de formulário"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:496
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:496
 msgid "From"
 msgstr "De"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:628
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:628
 msgid "Keywords"
 msgstr "Palavras-chave"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:225
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:225
 msgid "Label"
 msgstr "Etiqueta"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:212
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:212
 msgid "Message…"
 msgstr "Mensagem…"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:543
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:691
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:543
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:691
 msgid "Name"
 msgstr "Nome"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:544
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:544
 msgid "Name is required"
 msgstr "O nome é obrigatório"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:463
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:463
 msgid "New"
 msgstr "Novo"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:367
-#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:113
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:367
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-list.tsx:113
 msgid "New service"
 msgstr "Novo serviço"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:97
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-list.tsx:97
 msgid "No"
 msgstr "Não"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:188
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:188
 msgid "No comments yet."
 msgstr "Sem comentários ainda."
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:680
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:680
 msgid "No forms found. Create a form in the booking plugin first."
 msgstr "Nenhum formulário encontrado. Crie primeiro um formulário no plugin de reservas."
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:469
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:469
 msgid "No slots yet. Use New to add availability windows."
 msgstr "Sem slots ainda. Use Novo para adicionar janelas de disponibilidade."
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:89
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:89
 msgid "Order updated"
 msgstr "Encomenda atualizada"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:652
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:652
 msgid "Reservation form"
 msgstr "Formulário de reserva"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:654
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:654
 msgid "Select a reservation form"
 msgstr "Selecionar um formulário de reserva"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:703
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:703
 msgid "Select a reservation form to preview its fields."
 msgstr "Selecione um formulário de reserva para pré-visualizar os seus campos."
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:581
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:582
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:581
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:582
 msgid "Select collection"
 msgstr "Selecionar coleção"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:666
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:667
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:666
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:667
 msgid "Select reservation form"
 msgstr "Selecionar formulário de reserva"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:616
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:616
 msgid "SEO"
 msgstr "SEO"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:612
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:612
 msgid "SEO & reservation form"
 msgstr "SEO e formulário de reserva"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:635
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:635
 msgid "SEO description"
 msgstr "Descrição SEO"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:352
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:360
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:367
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:166
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:352
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:360
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:367
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:166
 msgid "Service"
 msgstr "Serviço"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:242
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:242
 msgid "Service created"
 msgstr "Serviço criado"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:256
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:256
 msgid "Service updated"
 msgstr "Serviço atualizado"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:39
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-list.tsx:39
 msgid "Services"
 msgstr "Serviços"
 
 #. placeholder {0}: index + 1
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:479
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:479
 msgid "Slot {0}"
 msgstr "Slot {0}"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:560
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:560
 msgid "Slug"
 msgstr "Slug"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:561
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:561
 msgid "Slug is required"
 msgstr "O slug é obrigatório"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:142
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:146
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:142
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:146
 msgid "Status"
 msgstr "Estado"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:417
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:417
 msgid "Status & schedule"
 msgstr "Estado e calendário"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:164
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:164
 msgid "Summary"
 msgstr "Resumo"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:622
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:622
 msgid "Title"
 msgstr "Título"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:514
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:514
 msgid "To"
 msgstr "Até"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:692
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:226
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:692
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:226
 msgid "Type"
 msgstr "Tipo"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:248
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:262
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:95
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:248
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:262
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:95
 msgid "Unknown error"
 msgstr "Erro desconhecido"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:372
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:137
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-detail.tsx:372
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:137
 msgid "Update"
 msgstr "Atualizar"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:94
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:94
 msgid "Update failed"
 msgstr "Falha na atualização"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:227
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:227
 msgid "Value"
 msgstr "Valor"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:175
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-order-detail.tsx:175
 msgid "View"
 msgstr "Ver"
 
-#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:97
+#: src/plugins/common/booking-plugin/dashboard/pages/booking-list.tsx:97
 msgid "Yes"
 msgstr "Sim"

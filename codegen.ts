@@ -5,7 +5,76 @@ const pluginConfig = {
 };
 
 const projectGenerates: Record<string, CodegenConfig['generates']> = {
-  evora: {},
+  evora: {
+    'src/plugins/common/booking-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/booking-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/custom-customer-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/custom-customer-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/custom-facet-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/custom-facet-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/custom-product-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/custom-product-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/custom-seller-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/custom-seller-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/file-cache-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/file-cache-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/geoanalytics-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/geoanalytics-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/loyalty-points-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/loyalty-points-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/marketplace-api-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/marketplace-api-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/multivendor-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/multivendor-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/pre-order-inquiry-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/pre-order-inquiry-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/promotion-extension-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/promotion-extension-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/qr-code/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/qr-code/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/query-runner/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/query-runner/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/review-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/review-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/shared-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/shared-plugin/dashboard/**/*.graphql.ts'],
+    },
+    'src/plugins/common/wishlist-plugin/gql/generated.ts': {
+      ...pluginConfig,
+      documents: ['src/plugins/common/wishlist-plugin/dashboard/**/*.graphql.ts'],
+    },
+  },
   alcobaca: {},
   setubal: {
     'src/plugins/setubal/geoanalitycs-plugin/gql/generated.ts': {
