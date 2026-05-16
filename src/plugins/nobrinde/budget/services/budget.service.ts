@@ -964,7 +964,7 @@ export class BudgetService {
     if (!budget.messages) {
       budget.messages = [];
     }
-    budget.messages.push(newMessage);
+    budget.messages.push(newMessage as never);
     await this.connection.getRepository(ctx, Budget).save(budget);
     return newMessage;
   }

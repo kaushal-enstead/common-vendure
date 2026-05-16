@@ -14,46 +14,46 @@ const projectGenerates: Record<string, CodegenConfig['generates']> = {
     },
   },
   nobrinde: {
-    './src/plugins/budget/gql/generated.ts': {
+    './src/plugins/nobrinde/budget/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/channel-personalization/gql/generated.ts': {
+    './src/plugins/nobrinde/channel-personalization/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/custom-cms-plugin/gql/generated.ts': {
+    './src/plugins/nobrinde/custom-cms-plugin/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/custom-shipping-plugin/gql/generated.ts': {
+    './src/plugins/nobrinde/custom-shipping-plugin/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/customer-support/gql/generated.ts': {
+    './src/plugins/nobrinde/customer-support/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/easypay-plugin/gql/generated.ts': {
+    './src/plugins/nobrinde/easypay-plugin/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/external-sync/gql/generated.ts': {
+    './src/plugins/nobrinde/external-sync/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/loyalty-points/gql/generated.ts': {
+    './src/plugins/nobrinde/loyalty-points/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/kits/gql/generated.ts': {
+    './src/plugins/nobrinde/kits/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/nobrinde-entity/gql/generated.ts': {
+    './src/plugins/nobrinde/nobrinde-entity/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/qr-code/gql/generated.ts': {
+    './src/plugins/nobrinde/qr-code/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/quantity-pricing/gql/generated.ts': {
+    './src/plugins/nobrinde/quantity-pricing/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/query-runner/gql/generated.ts': {
+    './src/plugins/nobrinde/query-runner/gql/generated.ts': {
       ...pluginConfig,
     },
-    './src/plugins/user-credit/gql/generated.ts': {
+    './src/plugins/nobrinde/user-credit/gql/generated.ts': {
       ...pluginConfig,
     },
   },

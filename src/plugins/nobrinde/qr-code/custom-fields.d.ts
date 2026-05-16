@@ -1,5 +1,5 @@
 import '@vendure/core';
-import { Asset } from './gql/generated';
+import { Asset } from '@vendure/core';
 
 declare module '@vendure/core/dist/entity/custom-entity-fields' {
   interface CustomProductFields {

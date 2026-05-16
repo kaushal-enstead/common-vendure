@@ -1,10 +1,5 @@
 export type Maybe<T> = T | null;
 export type InputMaybe<T> = Maybe<T>;
-export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
-export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: Maybe<T[SubKey]> };
-export type MakeMaybe<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]: Maybe<T[SubKey]> };
-export type MakeEmpty<T extends { [key: string]: unknown }, K extends keyof T> = { [_ in K]?: never };
-export type Incremental<T> = T | { [P in keyof T]?: P extends ' $fragmentName' | '__typename' ? T[P] : never };
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
   ID: { input: string; output: string; }
@@ -12,10 +7,10 @@ export type Scalars = {
   Boolean: { input: boolean; output: boolean; }
   Int: { input: number; output: number; }
   Float: { input: number; output: number; }
-  DateTime: { input: any; output: any; }
-  JSON: { input: any; output: any; }
+  DateTime: { input: unknown; output: unknown; }
+  JSON: { input: unknown; output: unknown; }
   Money: { input: number; output: number; }
-  Upload: { input: any; output: any; }
+  Upload: { input: unknown; output: unknown; }
 };
 
 export type AddFulfillmentToOrderResult = CreateFulfillmentError | EmptyOrderLineSelectionError | Fulfillment | FulfillmentStateTransitionError | InsufficientStockOnHandError | InvalidFulfillmentHandlerError | ItemsAlreadyFulfilledError;
@@ -1784,6 +1779,12 @@ export type CreateFaqInput = {
   translations: Array<FaqTranslationInput>;
 };
 
+export type CreateFileCacheInput = {
+  id: Scalars['ID']['input'];
+  type: FileCacheType;
+  value: Scalars['String']['input'];
+};
+
 export type CreateFooterInput = {
   code: Scalars['String']['input'];
   customFields?: InputMaybe<Scalars['JSON']['input']>;
@@ -1868,7 +1869,7 @@ export type CreateProductCustomFieldsInput = {
   measurements?: InputMaybe<ProductMeasurementsStructInput>;
   packaging?: InputMaybe<Scalars['String']['input']>;
   printings?: InputMaybe<Scalars['String']['input']>;
-  qrCodeAssetId?: InputMaybe<Scalars['ID']['input']>;
+  sku_mba?: InputMaybe<Scalars['String']['input']>;
   weight?: InputMaybe<Scalars['Float']['input']>;
 };
 
@@ -1897,7 +1898,6 @@ export type CreateProductOptionInput = {
 
 export type CreateProductVariantCustomFieldsInput = {
   minQuantity?: InputMaybe<Scalars['Int']['input']>;
-  qrCodeAssetId?: InputMaybe<Scalars['ID']['input']>;
   weight?: InputMaybe<Scalars['Float']['input']>;
 };
 
@@ -3215,6 +3215,56 @@ export type FaqTranslationInput = {
   title: Scalars['String']['input'];
 };
 
+export type FileCache = Node & {
+  __typename?: 'FileCache';
+  createdAt: Scalars['DateTime']['output'];
+  id: Scalars['ID']['output'];
+  type: FileCacheType;
+  updatedAt: Scalars['DateTime']['output'];
+  value: Scalars['String']['output'];
+};
+
+export type FileCacheFilterParameter = {
+  _and?: InputMaybe<Array<FileCacheFilterParameter>>;
+  _or?: InputMaybe<Array<FileCacheFilterParameter>>;
+  createdAt?: InputMaybe<DateOperators>;
+  id?: InputMaybe<IdOperators>;
+  type?: InputMaybe<StringOperators>;
+  updatedAt?: InputMaybe<DateOperators>;
+  value?: InputMaybe<StringOperators>;
+};
+
+export type FileCacheList = PaginatedList & {
+  __typename?: 'FileCacheList';
+  items: Array<FileCache>;
+  totalItems: Scalars['Int']['output'];
+};
+
+export type FileCacheListOptions = {
+  /** Allows the results to be filtered */
+  filter?: InputMaybe<FileCacheFilterParameter>;
+  /** Specifies whether multiple top-level "filter" fields should be combined with a logical AND or OR operation. Defaults to AND. */
+  filterOperator?: InputMaybe<LogicalOperator>;
+  /** Skips the first n results, for use in pagination */
+  skip?: InputMaybe<Scalars['Int']['input']>;
+  /** Specifies which properties to sort the results by */
+  sort?: InputMaybe<FileCacheSortParameter>;
+  /** Takes n results, for use in pagination */
+  take?: InputMaybe<Scalars['Int']['input']>;
+};
+
+export type FileCacheSortParameter = {
+  createdAt?: InputMaybe<SortOrder>;
+  id?: InputMaybe<SortOrder>;
+  updatedAt?: InputMaybe<SortOrder>;
+  value?: InputMaybe<SortOrder>;
+};
+
+export enum FileCacheType {
+  JSON = 'JSON',
+  TEXT = 'TEXT'
+}
+
 export type FloatCustomFieldConfig = CustomField & {
   __typename?: 'FloatCustomFieldConfig';
   deprecated?: Maybe<Scalars['Boolean']['output']>;
@@ -4486,6 +4536,7 @@ export type Mutation = {
   /** Create one or more FacetValues */
   createFacetValues: Array<FacetValue>;
   createFaq: Faq;
+  createFileCache: FileCache;
   createFooter: Footer;
   createHeader: Header;
   /** Create a new Kit */
@@ -4581,6 +4632,7 @@ export type Mutation = {
   deleteFacets: Array<DeletionResponse>;
   deleteFaq: DeletionResponse;
   deleteFaqs: Array<DeletionResponse>;
+  deleteFileCache: Array<DeletionResponse>;
   deleteFooter: DeletionResponse;
   deleteFooters: Array<DeletionResponse>;
   deleteHeader: DeletionResponse;
@@ -4663,8 +4715,6 @@ export type Mutation = {
   executeQuery: QueryResult;
   flushBufferedJobs: Success;
   generateNobrindeBudgetPdf: GenerateNobrindeBudgetPdfResult;
-  generateProductAndVariantsQrCodes: Scalars['Boolean']['output'];
-  generateProductQrCode: Scalars['Boolean']['output'];
   importProducts?: Maybe<ImportInfo>;
   /**
    * Authenticates the user using the native authentication strategy. This mutation is an alias for authenticate({ native: { ... }})
@@ -4824,6 +4874,7 @@ export type Mutation = {
   /** Update one or more FacetValues */
   updateFacetValues: Array<FacetValue>;
   updateFaq: Faq;
+  updateFileCache: FileCache;
   updateFooter: Footer;
   updateGlobalSettings: UpdateGlobalSettingsResult;
   updateHeader: Header;
@@ -5204,6 +5255,11 @@ export type MutationCreateFaqArgs = {
 };
 
 
+export type MutationCreateFileCacheArgs = {
+  input: CreateFileCacheInput;
+};
+
+
 export type MutationCreateFooterArgs = {
   input: CreateFooterInput;
 };
@@ -5502,6 +5558,11 @@ export type MutationDeleteFaqsArgs = {
 };
 
 
+export type MutationDeleteFileCacheArgs = {
+  ids: Array<Scalars['ID']['input']>;
+};
+
+
 export type MutationDeleteFooterArgs = {
   id: Scalars['ID']['input'];
 };
@@ -5753,16 +5814,6 @@ export type MutationFlushBufferedJobsArgs = {
 
 export type MutationGenerateNobrindeBudgetPdfArgs = {
   id: Scalars['ID']['input'];
-};
-
-
-export type MutationGenerateProductAndVariantsQrCodesArgs = {
-  productId: Scalars['ID']['input'];
-};
-
-
-export type MutationGenerateProductQrCodeArgs = {
-  productId: Scalars['ID']['input'];
 };
 
 
@@ -6234,6 +6285,11 @@ export type MutationUpdateFacetValuesArgs = {
 
 export type MutationUpdateFaqArgs = {
   input: UpdateFaqInput;
+};
+
+
+export type MutationUpdateFileCacheArgs = {
+  input: UpdateFileCacheInput;
 };
 
 
@@ -7385,7 +7441,7 @@ export type PageBlock = Node & {
   __typename?: 'PageBlock';
   active: Scalars['Boolean']['output'];
   code?: Maybe<Scalars['String']['output']>;
-  columns: Array<PageBlockColumn>;
+  columns?: Maybe<Array<PageBlockColumn>>;
   createdAt: Scalars['DateTime']['output'];
   css?: Maybe<Scalars['JSON']['output']>;
   id: Scalars['ID']['output'];
@@ -7675,6 +7731,8 @@ export enum Permission {
   CreateFacet = 'CreateFacet',
   /** Grants permission to create Faq */
   CreateFaq = 'CreateFaq',
+  /** Grants permission to create FileCache */
+  CreateFileCache = 'CreateFileCache',
   /** Grants permission to create Footer */
   CreateFooter = 'CreateFooter',
   /** Grants permission to create Header */
@@ -7759,6 +7817,8 @@ export enum Permission {
   DeleteFacet = 'DeleteFacet',
   /** Grants permission to delete Faq */
   DeleteFaq = 'DeleteFaq',
+  /** Grants permission to delete FileCache */
+  DeleteFileCache = 'DeleteFileCache',
   /** Grants permission to delete Footer */
   DeleteFooter = 'DeleteFooter',
   /** Grants permission to delete Header */
@@ -7851,6 +7911,8 @@ export enum Permission {
   ReadFacet = 'ReadFacet',
   /** Grants permission to read Faq */
   ReadFaq = 'ReadFaq',
+  /** Grants permission to read FileCache */
+  ReadFileCache = 'ReadFileCache',
   /** Grants permission to read Footer */
   ReadFooter = 'ReadFooter',
   /** Grants permission to read Header */
@@ -7937,6 +7999,8 @@ export enum Permission {
   UpdateFacet = 'UpdateFacet',
   /** Grants permission to update Faq */
   UpdateFaq = 'UpdateFaq',
+  /** Grants permission to update FileCache */
+  UpdateFileCache = 'UpdateFileCache',
   /** Grants permission to update Footer */
   UpdateFooter = 'UpdateFooter',
   /** Grants permission to update GlobalSettings */
@@ -8054,8 +8118,8 @@ export type ProductCustomFields = {
   measurements?: Maybe<ProductMeasurementsStruct>;
   packaging?: Maybe<Scalars['String']['output']>;
   printings?: Maybe<Scalars['String']['output']>;
-  qrCodeAsset?: Maybe<Asset>;
   seo_metadata?: Maybe<Scalars['String']['output']>;
+  sku_mba?: Maybe<Scalars['String']['output']>;
   weight?: Maybe<Scalars['Float']['output']>;
 };
 
@@ -8095,6 +8159,7 @@ export type ProductFilterParameter = {
   printings?: InputMaybe<StringOperators>;
   seo_metadata?: InputMaybe<StringOperators>;
   sku?: InputMaybe<StringOperators>;
+  sku_mba?: InputMaybe<StringOperators>;
   slug?: InputMaybe<StringOperators>;
   updatedAt?: InputMaybe<DateOperators>;
   weight?: InputMaybe<NumberOperators>;
@@ -8337,8 +8402,8 @@ export type ProductSortParameter = {
   name?: InputMaybe<SortOrder>;
   packaging?: InputMaybe<SortOrder>;
   printings?: InputMaybe<SortOrder>;
-  qrCodeAsset?: InputMaybe<SortOrder>;
   seo_metadata?: InputMaybe<SortOrder>;
+  sku_mba?: InputMaybe<SortOrder>;
   slug?: InputMaybe<SortOrder>;
   updatedAt?: InputMaybe<SortOrder>;
   weight?: InputMaybe<SortOrder>;
@@ -8438,11 +8503,16 @@ export type ProductVariantCustomFields = {
   is_stockoff?: Maybe<Scalars['Boolean']['output']>;
   item_code?: Maybe<Scalars['String']['output']>;
   minQuantity?: Maybe<Scalars['Int']['output']>;
+  next_date_1?: Maybe<Scalars['DateTime']['output']>;
+  next_date_2?: Maybe<Scalars['DateTime']['output']>;
+  next_date_3?: Maybe<Scalars['DateTime']['output']>;
+  next_stocks_1?: Maybe<Scalars['Int']['output']>;
+  next_stocks_2?: Maybe<Scalars['Int']['output']>;
+  next_stocks_3?: Maybe<Scalars['Int']['output']>;
   promotion_date_end?: Maybe<Scalars['DateTime']['output']>;
   promotion_date_start?: Maybe<Scalars['DateTime']['output']>;
   promotion_percentage?: Maybe<Scalars['Int']['output']>;
   promotion_value?: Maybe<Scalars['Int']['output']>;
-  qrCodeAsset?: Maybe<Asset>;
   weight?: Maybe<Scalars['Float']['output']>;
 };
 
@@ -8473,6 +8543,12 @@ export type ProductVariantFilterParameter = {
   languageCode?: InputMaybe<StringOperators>;
   minQuantity?: InputMaybe<NumberOperators>;
   name?: InputMaybe<StringOperators>;
+  next_date_1?: InputMaybe<DateOperators>;
+  next_date_2?: InputMaybe<DateOperators>;
+  next_date_3?: InputMaybe<DateOperators>;
+  next_stocks_1?: InputMaybe<NumberOperators>;
+  next_stocks_2?: InputMaybe<NumberOperators>;
+  next_stocks_3?: InputMaybe<NumberOperators>;
   outOfStockThreshold?: InputMaybe<NumberOperators>;
   price?: InputMaybe<NumberOperators>;
   priceWithTax?: InputMaybe<NumberOperators>;
@@ -8556,6 +8632,12 @@ export type ProductVariantSortParameter = {
   item_code?: InputMaybe<SortOrder>;
   minQuantity?: InputMaybe<SortOrder>;
   name?: InputMaybe<SortOrder>;
+  next_date_1?: InputMaybe<SortOrder>;
+  next_date_2?: InputMaybe<SortOrder>;
+  next_date_3?: InputMaybe<SortOrder>;
+  next_stocks_1?: InputMaybe<SortOrder>;
+  next_stocks_2?: InputMaybe<SortOrder>;
+  next_stocks_3?: InputMaybe<SortOrder>;
   outOfStockThreshold?: InputMaybe<SortOrder>;
   price?: InputMaybe<SortOrder>;
   priceWithTax?: InputMaybe<SortOrder>;
@@ -8564,7 +8646,6 @@ export type ProductVariantSortParameter = {
   promotion_date_start?: InputMaybe<SortOrder>;
   promotion_percentage?: InputMaybe<SortOrder>;
   promotion_value?: InputMaybe<SortOrder>;
-  qrCodeAsset?: InputMaybe<SortOrder>;
   sku?: InputMaybe<SortOrder>;
   stockAllocated?: InputMaybe<SortOrder>;
   stockLevel?: InputMaybe<SortOrder>;
@@ -8799,6 +8880,8 @@ export type Query = {
   facets: FacetList;
   faq?: Maybe<Faq>;
   faqs: FaqList;
+  fileCacheEntries: FileCacheList;
+  fileCacheEntry?: Maybe<FileCache>;
   footer?: Maybe<Footer>;
   footers: FooterList;
   fulfillmentHandlers: Array<ConfigurableOperationDefinition>;
@@ -9096,6 +9179,16 @@ export type QueryFaqArgs = {
 
 export type QueryFaqsArgs = {
   options?: InputMaybe<FaqListOptions>;
+};
+
+
+export type QueryFileCacheEntriesArgs = {
+  options?: InputMaybe<FileCacheListOptions>;
+};
+
+
+export type QueryFileCacheEntryArgs = {
+  id: Scalars['ID']['input'];
 };
 
 
@@ -11036,6 +11129,11 @@ export type UpdateFaqInput = {
   translations?: InputMaybe<Array<FaqTranslationInput>>;
 };
 
+export type UpdateFileCacheInput = {
+  id: Scalars['ID']['input'];
+  value: Scalars['String']['input'];
+};
+
 export type UpdateFooterInput = {
   code?: InputMaybe<Scalars['String']['input']>;
   customFields?: InputMaybe<Scalars['JSON']['input']>;
@@ -11150,7 +11248,7 @@ export type UpdateProductCustomFieldsInput = {
   measurements?: InputMaybe<ProductMeasurementsStructInput>;
   packaging?: InputMaybe<Scalars['String']['input']>;
   printings?: InputMaybe<Scalars['String']['input']>;
-  qrCodeAssetId?: InputMaybe<Scalars['ID']['input']>;
+  sku_mba?: InputMaybe<Scalars['String']['input']>;
   weight?: InputMaybe<Scalars['Float']['input']>;
 };
 
@@ -11180,7 +11278,6 @@ export type UpdateProductOptionInput = {
 
 export type UpdateProductVariantCustomFieldsInput = {
   minQuantity?: InputMaybe<Scalars['Int']['input']>;
-  qrCodeAssetId?: InputMaybe<Scalars['ID']['input']>;
   weight?: InputMaybe<Scalars['Float']['input']>;
 };
 
