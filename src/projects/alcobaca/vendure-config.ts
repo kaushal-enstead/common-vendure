@@ -1,4 +1,22 @@
 import type { ProjectVendureConfig } from '../types';
+import {
+  CustomCustomerPlugin,
+  CustomFacetPlugin,
+  FileCachePlugin,
+  GeoAnalyticsPlugin,
+  MultivendorPlugin,
+  ReviewPlugin,
+  SharedPlugin,
+  WishlistPlugin,
+  BookingPlugin,
+  CustomSellerPlugin,
+  PreOrderInquiryPlugin,
+  QrCodePlugin,
+  MarketplaceApiPlugin,
+  CustomProductPlugin,
+  LoyaltyPointsPlugin,
+} from '../../plugins/common';
+import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';
 import { defaultEmailHandlers, EmailPlugin } from '@vendure/email-plugin';
@@ -20,10 +38,15 @@ export const alcobacaConfig: ProjectVendureConfig = {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
   },
+  entityOptions: {
+    entityIdStrategy: new UuidIdStrategy(),
+  },
   plugins: [
+    FileCachePlugin.init({ folderName: 'alcobaca-file-cache' }),
+    GeoAnalyticsPlugin.init({}),
     AssetServerPlugin.init({
       route: 'assets',
-      assetUploadDir: path.resolve(process.cwd(), 'static/alcobaca/assets'),
+      assetUploadDir: path.join(process.cwd(), 'static/alcobaca/assets'),
       assetUrlPrefix: (ctx, identifier) => assetUrlPrefix(ctx, identifier),
     }),
     EmailPlugin.init({
@@ -85,9 +108,8 @@ export const alcobacaConfig: ProjectVendureConfig = {
 
           return handler;
         }),
-        // ...LoyaltyPointsPlugin.emailHandlers,
-        // ...CustomSellerPlugin.emailHandlers,
-        // ...CourierPlugin.emailHandlers,
+        ...LoyaltyPointsPlugin.emailHandlers,
+        ...CustomSellerPlugin.emailHandlers,
       ],
       templateLoader: new CustomLanguageAwareTemplateLoader(
         path.join(process.cwd(), 'static/alcobaca/email/templates'),
@@ -99,6 +121,26 @@ export const alcobacaConfig: ProjectVendureConfig = {
         changeEmailAddressUrl: process.env.VENDURE_SHOP_URL + '/verify-email-address-change',
         fromAddress: `"${process.env.MAIL_FROM_NAME}" <${process.env.MAIL_FROM_ADDRESS}>`,
       },
+    }),
+    MultivendorPlugin.init({
+      platformFeePercent: 10,
+      platformFeeSKU: 'FEE',
+    }),
+    SharedPlugin.init({
+      orsApiKey: process.env.ORS_API_KEY!,
+    }),
+    CustomCustomerPlugin.init({}),
+    BookingPlugin.init({}),
+    ReviewPlugin.init({}),
+    WishlistPlugin.init({}),
+    CustomFacetPlugin.init({}),
+    CustomSellerPlugin.init({}),
+    PreOrderInquiryPlugin.init({}),
+    QrCodePlugin.init(),
+    MarketplaceApiPlugin.init({ sharedSecret: process.env.MARKETPLACE_API_SECRET ?? '' }),
+    CustomProductPlugin.init({}),
+    LoyaltyPointsPlugin.init({
+      couponCode: 'LOYALTY',
     }),
   ],
 };

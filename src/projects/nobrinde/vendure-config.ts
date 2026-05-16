@@ -128,8 +128,8 @@ export const nobrindeConfig: ProjectVendureConfig = {
 
           return handler;
         }),
-        // ...LoyaltyPointsPlugin.emailHandlers,
-        // ...CustomShippingPlugin.emailHandlers,
+        ...LoyaltyPointsPlugin.emailHandlers,
+        ...CustomShippingPlugin.emailHandlers,
       ],
       templateLoader: new CustomLanguageAwareTemplateLoader(
         path.join(process.cwd(), 'static/nobrinde/email/templates'),

@@ -108,9 +108,8 @@ export const evoraConfig: ProjectVendureConfig = {
 
           return handler;
         }),
-        // ...LoyaltyPointsPlugin.emailHandlers,
-        // ...CustomSellerPlugin.emailHandlers,
-        // ...CourierPlugin.emailHandlers,
+        ...LoyaltyPointsPlugin.emailHandlers,
+        ...CustomSellerPlugin.emailHandlers,
       ],
       templateLoader: new CustomLanguageAwareTemplateLoader(
         path.join(process.cwd(), 'static/evora/email/templates'),
