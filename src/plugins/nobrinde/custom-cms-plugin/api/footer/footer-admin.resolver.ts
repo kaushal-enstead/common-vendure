@@ -21,13 +21,13 @@ import {
   RemoveFootersFromChannelInput,
   Permission,
 } from '../../gql/generated';
-
+import { FooterPermissions } from '../../constants';
 @Resolver()
 export class FooterAdminResolver {
   constructor(private footerService: FooterService) {}
 
   @Query()
-  @Allow(Permission.ReadFooter)
+  @Allow(FooterPermissions.Read)
   async footer(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -37,7 +37,7 @@ export class FooterAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadFooter)
+  @Allow(FooterPermissions.Read)
   async footers(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Footer> },
@@ -48,7 +48,7 @@ export class FooterAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateFooter)
+  @Allow(FooterPermissions.Create)
   async createFooter(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateFooterInput },
@@ -58,7 +58,7 @@ export class FooterAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateFooter)
+  @Allow(FooterPermissions.Update)
   async updateFooter(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateFooterInput },
@@ -68,21 +68,21 @@ export class FooterAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteFooter)
+  @Allow(FooterPermissions.Delete)
   async deleteFooter(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.footerService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteFooter)
+  @Allow(FooterPermissions.Delete)
   async deleteFooters(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.footerService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateFooter)
+  @Allow(FooterPermissions.Update)
   async assignFootersToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignFootersToChannelInput },
@@ -92,7 +92,7 @@ export class FooterAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateFooter)
+  @Allow(FooterPermissions.Update)
   async removeFootersFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveFootersFromChannelInput },

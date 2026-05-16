@@ -21,13 +21,13 @@ import {
   RemoveNewsFromChannelInput,
   Permission,
 } from '../../gql/generated';
-
+import { NewsPermissions } from '../../constants';
 @Resolver()
 export class NewsAdminResolver {
   constructor(private newsService: NewsService) {}
 
   @Query()
-  @Allow(Permission.ReadNews)
+  @Allow(NewsPermissions.Read)
   async news(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -37,7 +37,7 @@ export class NewsAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadNews)
+  @Allow(NewsPermissions.Read)
   async newsList(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<News> },
@@ -48,7 +48,7 @@ export class NewsAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateNews)
+  @Allow(NewsPermissions.Create)
   async createNews(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateNewsInput },
@@ -58,7 +58,7 @@ export class NewsAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateNews)
+  @Allow(NewsPermissions.Update)
   async updateNews(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateNewsInput },
@@ -68,21 +68,21 @@ export class NewsAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteNews)
+  @Allow(NewsPermissions.Delete)
   async deleteNews(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.newsService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteNews)
+  @Allow(NewsPermissions.Delete)
   async deleteNewsList(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.newsService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateNews)
+  @Allow(NewsPermissions.Update)
   async assignNewsToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignNewsToChannelInput },
@@ -92,7 +92,7 @@ export class NewsAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateNews)
+  @Allow(NewsPermissions.Update)
   async removeNewsFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveNewsFromChannelInput },

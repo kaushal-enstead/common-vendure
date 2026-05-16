@@ -21,13 +21,14 @@ import {
   RemoveAuthorsFromChannelInput,
   Permission,
 } from '../../gql/generated';
+import { AuthorPermissions } from '../../constants';
 
 @Resolver()
 export class AuthorAdminResolver {
   constructor(private authorService: AuthorService) {}
 
   @Query()
-  @Allow(Permission.ReadAuthor)
+  @Allow(AuthorPermissions.Read)
   async author(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -37,7 +38,7 @@ export class AuthorAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadAuthor)
+  @Allow(AuthorPermissions.Read)
   async authors(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Author> },
@@ -48,7 +49,7 @@ export class AuthorAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateAuthor)
+  @Allow(AuthorPermissions.Create)
   async createAuthor(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateAuthorInput },
@@ -58,7 +59,7 @@ export class AuthorAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateAuthor)
+  @Allow(AuthorPermissions.Update)
   async updateAuthor(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateAuthorInput },
@@ -68,21 +69,21 @@ export class AuthorAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteAuthor)
+  @Allow(AuthorPermissions.Delete)
   async deleteAuthor(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.authorService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteAuthor)
+  @Allow(AuthorPermissions.Delete)
   async deleteAuthors(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.authorService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateAuthor)
+  @Allow(AuthorPermissions.Update)
   async assignAuthorsToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignAuthorsToChannelInput },
@@ -92,7 +93,7 @@ export class AuthorAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateAuthor)
+  @Allow(AuthorPermissions.Update)
   async removeAuthorsFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveAuthorsFromChannelInput },

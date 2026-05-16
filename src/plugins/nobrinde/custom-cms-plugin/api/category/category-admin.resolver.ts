@@ -20,13 +20,13 @@ import {
   RemoveCategoriesFromChannelInput,
   Permission,
 } from '../../gql/generated';
-
+import { CategoryPermissions } from '../../constants';
 @Resolver()
 export class CategoryAdminResolver {
   constructor(private categoryService: CategoryService) {}
 
   @Query()
-  @Allow(Permission.ReadCategory)
+  @Allow(CategoryPermissions.Read)
   async category(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -36,7 +36,7 @@ export class CategoryAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadCategory)
+  @Allow(CategoryPermissions.Read)
   async categories(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Category> },
@@ -47,7 +47,7 @@ export class CategoryAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateCategory)
+  @Allow(CategoryPermissions.Create)
   async createCategory(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateCategoryInput },
@@ -57,7 +57,7 @@ export class CategoryAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateCategory)
+  @Allow(CategoryPermissions.Update)
   async updateCategory(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateCategoryInput },
@@ -67,14 +67,14 @@ export class CategoryAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteCategory)
+  @Allow(CategoryPermissions.Delete)
   async deleteCategory(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.categoryService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteCategory)
+  @Allow(CategoryPermissions.Delete)
   async deleteCategories(
     @Ctx() ctx: RequestContext,
     @Args() args: { ids: ID[] },
@@ -84,7 +84,7 @@ export class CategoryAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCategory)
+  @Allow(CategoryPermissions.Update)
   async assignCategoriesToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignCategoriesToChannelInput },
@@ -94,7 +94,7 @@ export class CategoryAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCategory)
+  @Allow(CategoryPermissions.Update)
   async removeCategoriesFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveCategoriesFromChannelInput },

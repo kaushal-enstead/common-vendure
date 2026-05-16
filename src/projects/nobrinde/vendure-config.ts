@@ -16,6 +16,7 @@ import { NobrindeEntityPlugin } from '../../plugins/nobrinde/nobrinde-entity/nob
 import { CustomShippingPlugin } from '../../plugins/nobrinde/custom-shipping-plugin/custom-shipping.plugin';
 import { SyncPlugin } from '../../plugins/nobrinde/external-sync/external-sync.plugin';
 import { QuantityPricingPlugin } from '../../plugins/nobrinde/quantity-pricing/quantity-pricing.plugin';
+import { CmsPlugin } from '../../plugins/nobrinde/custom-cms-plugin/custom-cms.plugin';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 const serverPort = +process.env.PORT || 3000;
@@ -224,5 +225,6 @@ export const nobrindeConfig: ProjectVendureConfig = {
     NobrindeEntityPlugin.init({}),
     CustomShippingPlugin.init(),
     QuantityPricingPlugin.init(),
+    CmsPlugin.init({}),
   ],
 };

@@ -26,6 +26,7 @@ import {
   LinkRefOptions,
   LinkRefOption,
 } from '../../gql/generated';
+import { AlertPermissions } from '../../constants';
 
 @Resolver()
 export class AlertAdminResolver {
@@ -37,7 +38,7 @@ export class AlertAdminResolver {
   ) {}
 
   @Query()
-  @Allow(Permission.ReadAlert)
+  @Allow(AlertPermissions.Read)
   async alert(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -47,7 +48,7 @@ export class AlertAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadAlert)
+  @Allow(AlertPermissions.Read)
   async alerts(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Alert> },
@@ -58,7 +59,7 @@ export class AlertAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateAlert)
+  @Allow(AlertPermissions.Create)
   async createAlert(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateAlertInput },
@@ -68,7 +69,7 @@ export class AlertAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateAlert)
+  @Allow(AlertPermissions.Update)
   async updateAlert(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateAlertInput },
@@ -78,21 +79,21 @@ export class AlertAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteAlert)
+  @Allow(AlertPermissions.Delete)
   async deleteAlert(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.alertService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteAlert)
+  @Allow(AlertPermissions.Delete)
   async deleteAlerts(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.alertService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateAlert)
+  @Allow(AlertPermissions.Update)
   async assignAlertsToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignAlertsToChannelInput },
@@ -102,7 +103,7 @@ export class AlertAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateAlert)
+  @Allow(AlertPermissions.Update)
   async removeAlertsFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveAlertsFromChannelInput },
@@ -111,7 +112,7 @@ export class AlertAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadAlert)
+  @Allow(AlertPermissions.Read)
   async linkRefOptions(@Ctx() ctx: RequestContext): Promise<LinkRefOptions> {
     // Fetch active pages
     const pagesResult = await this.pageBuilderService.findAll(ctx, {

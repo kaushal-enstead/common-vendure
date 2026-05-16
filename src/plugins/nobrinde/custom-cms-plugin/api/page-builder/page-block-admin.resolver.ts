@@ -4,26 +4,26 @@ import { Allow, Ctx, ID, RequestContext, Transaction } from '@vendure/core';
 import { PageBlock } from '../../entities/page-builder/page-block.entity';
 import { PageBlockService } from '../../services/page-block.service';
 import { Permission, CreatePageBlockInput, UpdatePageBlockInput } from '../../gql/generated';
-
+import { PagePermissions } from '../../constants';
 @Resolver()
 export class PageBlockAdminResolver {
   constructor(private pageBlockService: PageBlockService) {}
 
   @Query()
-  @Allow(Permission.ReadPage)
+  @Allow(PagePermissions.Read)
   async pageBlock(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<PageBlock | null> {
     return this.pageBlockService.findOne(ctx, args.id);
   }
 
   @Query()
-  @Allow(Permission.ReadPage)
+  @Allow(PagePermissions.Read)
   async pageBlocks(@Ctx() ctx: RequestContext, @Args() args: { pageId: ID }): Promise<PageBlock[]> {
     return this.pageBlockService.findByPageId(ctx, args.pageId);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Create)
   async createPageBlock(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreatePageBlockInput },
@@ -33,7 +33,7 @@ export class PageBlockAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Update)
   async updatePageBlock(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdatePageBlockInput },
@@ -43,14 +43,14 @@ export class PageBlockAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Delete)
   async deletePageBlock(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.pageBlockService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Update)
   async reorderPageBlocks(
     @Ctx() ctx: RequestContext,
     @Args() args: { blockIds: ID[] },
@@ -60,7 +60,7 @@ export class PageBlockAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Update)
   async duplicatePageBlock(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<PageBlock> {
     return this.pageBlockService.duplicate(ctx, args.id);
   }

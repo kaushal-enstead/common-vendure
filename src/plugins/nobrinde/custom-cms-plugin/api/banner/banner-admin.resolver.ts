@@ -21,13 +21,13 @@ import {
   RemoveBannersFromChannelInput,
   Permission,
 } from '../../gql/generated';
-
+import { BannerPermissions } from '../../constants';
 @Resolver()
 export class BannerAdminResolver {
   constructor(private bannerService: BannerService) {}
 
   @Query()
-  @Allow(Permission.ReadBanner)
+  @Allow(BannerPermissions.Read)
   async banner(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -37,7 +37,7 @@ export class BannerAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadBanner)
+  @Allow(BannerPermissions.Read)
   async banners(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Banner> },
@@ -48,7 +48,7 @@ export class BannerAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateBanner)
+  @Allow(BannerPermissions.Create)
   async createBanner(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateBannerInput },
@@ -58,7 +58,7 @@ export class BannerAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateBanner)
+  @Allow(BannerPermissions.Update)
   async updateBanner(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateBannerInput },
@@ -68,21 +68,21 @@ export class BannerAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteBanner)
+  @Allow(BannerPermissions.Delete)
   async deleteBanner(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.bannerService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteBanner)
+  @Allow(BannerPermissions.Delete)
   async deleteBanners(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.bannerService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateBanner)
+  @Allow(BannerPermissions.Update)
   async assignBannersToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignBannersToChannelInput },
@@ -92,7 +92,7 @@ export class BannerAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateBanner)
+  @Allow(BannerPermissions.Update)
   async removeBannersFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveBannersFromChannelInput },

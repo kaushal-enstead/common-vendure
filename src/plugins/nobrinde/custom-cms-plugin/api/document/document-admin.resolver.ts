@@ -21,13 +21,13 @@ import {
   RemoveDocumentsFromChannelInput,
   Permission,
 } from '../../gql/generated';
-
+import { DocumentPermissions } from '../../constants';
 @Resolver()
 export class DocumentAdminResolver {
   constructor(private documentService: DocumentService) {}
 
   @Query()
-  @Allow(Permission.ReadDocument)
+  @Allow(DocumentPermissions.Read)
   async document(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -37,7 +37,7 @@ export class DocumentAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadDocument)
+  @Allow(DocumentPermissions.Read)
   async documents(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Document> },
@@ -48,7 +48,7 @@ export class DocumentAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateDocument)
+  @Allow(DocumentPermissions.Create)
   async createDocument(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateDocumentInput },
@@ -58,7 +58,7 @@ export class DocumentAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateDocument)
+  @Allow(DocumentPermissions.Update)
   async updateDocument(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateDocumentInput },
@@ -68,14 +68,14 @@ export class DocumentAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteDocument)
+  @Allow(DocumentPermissions.Delete)
   async deleteDocument(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.documentService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteDocument)
+  @Allow(DocumentPermissions.Delete)
   async deleteDocuments(
     @Ctx() ctx: RequestContext,
     @Args() args: { ids: ID[] },
@@ -85,7 +85,7 @@ export class DocumentAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateDocument)
+  @Allow(DocumentPermissions.Update)
   async assignDocumentsToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignDocumentsToChannelInput },
@@ -95,7 +95,7 @@ export class DocumentAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateDocument)
+  @Allow(DocumentPermissions.Update)
   async removeDocumentsFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveDocumentsFromChannelInput },

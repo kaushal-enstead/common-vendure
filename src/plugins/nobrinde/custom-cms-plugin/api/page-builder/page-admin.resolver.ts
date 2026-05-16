@@ -20,13 +20,14 @@ import {
   AssignPageToChannelInput,
   RemovePageFromChannelInput,
 } from '../../gql/generated';
+import { PagePermissions } from '../../constants';
 
 @Resolver()
 export class PageAdminResolver {
   constructor(private pageBuilderService: PageBuilderService) {}
 
   @Query()
-  @Allow(Permission.ReadPage)
+  @Allow(PagePermissions.Read)
   async page(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -36,7 +37,7 @@ export class PageAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadPage)
+  @Allow(PagePermissions.Read)
   async pageList(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Page> },
@@ -47,35 +48,35 @@ export class PageAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreatePage)
+  @Allow(PagePermissions.Create)
   async createPage(@Ctx() ctx: RequestContext, @Args() args: { input: CreatePageInput }): Promise<Page> {
     return this.pageBuilderService.create(ctx, args.input);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Update)
   async updatePage(@Ctx() ctx: RequestContext, @Args() args: { input: UpdatePageInput }): Promise<Page> {
     return this.pageBuilderService.update(ctx, args.input);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeletePage)
+  @Allow(PagePermissions.Delete)
   async deletePage(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.pageBuilderService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeletePage)
+  @Allow(PagePermissions.Delete)
   async deletePageList(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.pageBuilderService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Update)
   async assignPageToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignPageToChannelInput },
@@ -85,7 +86,7 @@ export class PageAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdatePage)
+  @Allow(PagePermissions.Update)
   async removePageFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemovePageFromChannelInput },

@@ -21,13 +21,13 @@ import {
   RemoveHeadersFromChannelInput,
   Permission,
 } from '../../gql/generated';
-
+import { HeaderPermissions } from '../../constants';
 @Resolver()
 export class HeaderAdminResolver {
   constructor(private headerService: HeaderService) {}
 
   @Query()
-  @Allow(Permission.ReadHeader)
+  @Allow(HeaderPermissions.Read)
   async header(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -37,7 +37,7 @@ export class HeaderAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadHeader)
+  @Allow(HeaderPermissions.Read)
   async headers(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Header> },
@@ -48,7 +48,7 @@ export class HeaderAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateHeader)
+  @Allow(HeaderPermissions.Create)
   async createHeader(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateHeaderInput },
@@ -58,7 +58,7 @@ export class HeaderAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateHeader)
+  @Allow(HeaderPermissions.Update)
   async updateHeader(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateHeaderInput },
@@ -68,21 +68,21 @@ export class HeaderAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteHeader)
+  @Allow(HeaderPermissions.Delete)
   async deleteHeader(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.headerService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteHeader)
+  @Allow(HeaderPermissions.Delete)
   async deleteHeaders(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.headerService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateHeader)
+  @Allow(HeaderPermissions.Update)
   async assignHeadersToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignHeadersToChannelInput },
@@ -92,7 +92,7 @@ export class HeaderAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateHeader)
+  @Allow(HeaderPermissions.Update)
   async removeHeadersFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveHeadersFromChannelInput },

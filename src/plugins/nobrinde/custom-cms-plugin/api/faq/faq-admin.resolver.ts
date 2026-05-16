@@ -21,13 +21,13 @@ import {
   RemoveFaqsFromChannelInput,
   Permission,
 } from '../../gql/generated';
-
+import { FaqPermissions } from '../../constants';
 @Resolver()
 export class FaqAdminResolver {
   constructor(private faqService: FaqService) {}
 
   @Query()
-  @Allow(Permission.ReadFaq)
+  @Allow(FaqPermissions.Read)
   async faq(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: ID },
@@ -37,7 +37,7 @@ export class FaqAdminResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadFaq)
+  @Allow(FaqPermissions.Read)
   async faqs(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<Faq> },
@@ -48,7 +48,7 @@ export class FaqAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.CreateFaq)
+  @Allow(FaqPermissions.Create)
   async createFaq(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: CreateFaqInput },
@@ -58,7 +58,7 @@ export class FaqAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.UpdateFaq)
+  @Allow(FaqPermissions.Update)
   async updateFaq(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: UpdateFaqInput },
@@ -68,21 +68,21 @@ export class FaqAdminResolver {
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteFaq)
+  @Allow(FaqPermissions.Delete)
   async deleteFaq(@Ctx() ctx: RequestContext, @Args() args: { id: ID }): Promise<DeletionResponse> {
     return this.faqService.delete(ctx, args.id);
   }
 
   @Mutation()
   @Transaction()
-  @Allow(Permission.DeleteFaq)
+  @Allow(FaqPermissions.Delete)
   async deleteFaqs(@Ctx() ctx: RequestContext, @Args() args: { ids: ID[] }): Promise<DeletionResponse[]> {
     return Promise.all(args.ids.map(id => this.faqService.delete(ctx, id)));
   }
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateFaq)
+  @Allow(FaqPermissions.Update)
   async assignFaqsToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: AssignFaqsToChannelInput },
@@ -92,7 +92,7 @@ export class FaqAdminResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateFaq)
+  @Allow(FaqPermissions.Update)
   async removeFaqsFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: { input: RemoveFaqsFromChannelInput },
