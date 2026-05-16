@@ -27,36 +27,36 @@ const projectGenerates: Record<string, CodegenConfig['generates']> = {
     'src/plugins/common/geoanalytics-plugin/gql/generated.ts': {
       ...pluginConfig,
     },
-    // 'src/plugins/common/loyalty-points-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/marketplace-api-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/multivendor-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/pre-order-inquiry-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/promotion-extension-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/qr-code/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/query-runner/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/review-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/shared-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/wishlist-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
+    'src/plugins/common/loyalty-points-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/marketplace-api-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/multivendor-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/pre-order-inquiry-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/promotion-extension-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/qr-code/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/query-runner/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/review-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/shared-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/wishlist-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
   },
   alcobaca: {},
   setubal: {
