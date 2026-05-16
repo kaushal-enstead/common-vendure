@@ -19,7 +19,8 @@
     "prettier:check": "prettier . --check",
     "codegen": "graphql-codegen --config codegen.ts",
     "generate:translations": "npx lingui extract --config lingui.config.js",
-    "compile:translations": "npx lingui compile --config lingui.config.js"
+    "compile:translations": "npx lingui compile --config lingui.config.js",
+    "project:evora": "PROJECT_NAME=evora concurrently --kill-others npm:dev:server npm:dev:worker npm:dev:dashboard"
   },
   "dependencies": {
     "@vendure/asset-server-plugin": "3.6.3",
