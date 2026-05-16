@@ -9,24 +9,24 @@ const projectGenerates: Record<string, CodegenConfig['generates']> = {
     'src/plugins/common/booking-plugin/gql/generated.ts': {
       ...pluginConfig,
     },
-    // 'src/plugins/common/custom-customer-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/custom-facet-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/custom-product-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
-    // 'src/plugins/common/custom-seller-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
+    'src/plugins/common/custom-customer-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/custom-facet-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/custom-product-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    'src/plugins/common/custom-seller-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
     // 'src/plugins/common/file-cache-plugin/gql/generated.ts': {
     //   ...pluginConfig,
     // },
-    // 'src/plugins/common/geoanalytics-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
+    'src/plugins/common/geoanalytics-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
     // 'src/plugins/common/loyalty-points-plugin/gql/generated.ts': {
     //   ...pluginConfig,
     // },
