@@ -1,0 +1,17 @@
+node_modules
+admin-ui
+static/assets
+static/email/test-emails
+.env
+.env*.local
+docker-compose.yml
+dist/*
+.vscode/
+.DS_Store
+/admin
+static/file-cache/
+vendure.log
+.keeps.txt
+.vendure
+.claude
+docs
