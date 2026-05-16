@@ -1,8 +1,9 @@
 {
-  "name": "evora-vendure",
+  "name": "common-vendure",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "populate": "ts-node ./src/populate.ts",
     "dev:server": "ts-node ./src/index.ts",
     "dev:worker": "ts-node ./src/index-worker.ts",
     "dev:dashboard": "vite --clearScreen false",
@@ -13,7 +14,12 @@
     "start:server": "node ./dist/index.js",
     "start:worker": "node ./dist/index-worker.js",
     "start": "concurrently npm:start:*",
-    "db:migrate": "npx vendure migrate"
+    "db:migrate": "npx vendure migrate",
+    "prettier": "prettier . --write",
+    "prettier:check": "prettier . --check",
+    "codegen": "graphql-codegen --config codegen.ts",
+    "generate:translations": "npx lingui extract --config lingui.config.js",
+    "compile:translations": "npx lingui compile --config lingui.config.js"
   },
   "dependencies": {
     "@vendure/asset-server-plugin": "3.6.3",

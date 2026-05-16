@@ -1,0 +1,14 @@
+generated-types.ts
+lazy-extensions.module.ts
+shared-extensions.module.ts
+generated-graphql-shop-errors.ts
+generated-graphql-admin-errors.ts
+
+src/migrations/*
+src/plugins/*/gql/generated.ts
+src/plugins/*/ui/gql/gql.ts
+src/plugins/*/ui/gql/graphql.ts
+src/plugins/*/ui/gql/index.ts
+README.md
+static/*
+src/gql/*
