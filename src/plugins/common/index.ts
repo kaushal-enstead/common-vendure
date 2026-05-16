@@ -5,3 +5,6 @@ export * from './promotion-extension-plugin/promotion-extension.plugin';
 export * from './multivendor-plugin/multivendor.plugin';
 export * from './shared-plugin/shared-plugin';
 export * from './custom-customer-plugin/custom-customer.plugin';
+export * from './review-plugin/review.plugin';
+export * from './wishlist-plugin/wishlist.plugin';
+export * from './custom-facets-plugin/custom-facets.plugin';

@@ -1,10 +1,13 @@
 import type { ProjectVendureConfig } from '../types';
 import {
   CustomCustomerPlugin,
+  CustomFacetPlugin,
   FileCachePlugin,
   GeoAnalyticsPlugin,
   MultivendorPlugin,
+  ReviewPlugin,
   SharedPlugin,
+  WishlistPlugin,
 } from '../../plugins/common';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
@@ -123,5 +126,8 @@ export const evoraConfig: ProjectVendureConfig = {
     }),
     CustomCustomerPlugin.init({}),
     BookingPlugin.init({}),
+    ReviewPlugin.init({}),
+    WishlistPlugin.init({}),
+    CustomFacetPlugin.init({}),
   ],
 };
