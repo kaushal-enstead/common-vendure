@@ -14,6 +14,8 @@ import { UserCreditPlugin } from '../../plugins/nobrinde/user-credit/user-credit
 import { WireTransferPlugin } from '../../plugins/nobrinde/wire-transfer/wire-transfer.plugin';
 import { NobrindeEntityPlugin } from '../../plugins/nobrinde/nobrinde-entity/nobrinde-entity.plugin';
 import { CustomShippingPlugin } from '../../plugins/nobrinde/custom-shipping-plugin/custom-shipping.plugin';
+import { SyncPlugin } from '../../plugins/nobrinde/external-sync/external-sync.plugin';
+import { QuantityPricingPlugin } from '../../plugins/nobrinde/quantity-pricing/quantity-pricing.plugin';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 const serverPort = +process.env.PORT || 3000;
@@ -221,5 +223,6 @@ export const nobrindeConfig: ProjectVendureConfig = {
     WireTransferPlugin.init({}),
     NobrindeEntityPlugin.init({}),
     CustomShippingPlugin.init(),
+    QuantityPricingPlugin.init(),
   ],
 };
