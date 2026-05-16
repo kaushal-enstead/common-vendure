@@ -11,3 +11,4 @@ export * from './custom-facets-plugin/custom-facets.plugin';
 export * from './booking-plugin/booking.plugin';
 export * from './custom-seller-plugin/custom-seller.plugin';
 export * from './pre-order-inquiry-plugin/pre-order-inquiry.plugin';
+export * from './qr-code/qr-code.plugin';

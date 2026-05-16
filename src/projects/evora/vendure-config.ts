@@ -11,6 +11,7 @@ import {
   BookingPlugin,
   CustomSellerPlugin,
   PreOrderInquiryPlugin,
+  QrCodePlugin,
 } from '../../plugins/common';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
@@ -133,5 +134,6 @@ export const evoraConfig: ProjectVendureConfig = {
     CustomFacetPlugin.init({}),
     CustomSellerPlugin.init({}),
     PreOrderInquiryPlugin.init({}),
+    QrCodePlugin.init(),
   ],
 };
