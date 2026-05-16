@@ -8,6 +8,9 @@ import {
   ReviewPlugin,
   SharedPlugin,
   WishlistPlugin,
+  BookingPlugin,
+  CustomSellerPlugin,
+  PreOrderInquiryPlugin,
 } from '../../plugins/common';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
@@ -15,8 +18,6 @@ import path from 'path';
 import { defaultEmailHandlers, EmailPlugin } from '@vendure/email-plugin';
 import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
-import { BookingPlugin } from '../../plugins/common/booking-plugin/booking.plugin';
-import { CustomSellerPlugin } from '../../plugins/common/custom-seller-plugin/custom-seller.plugin';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 export const evoraConfig: ProjectVendureConfig = {
@@ -131,5 +132,6 @@ export const evoraConfig: ProjectVendureConfig = {
     WishlistPlugin.init({}),
     CustomFacetPlugin.init({}),
     CustomSellerPlugin.init({}),
+    PreOrderInquiryPlugin.init({}),
   ],
 };

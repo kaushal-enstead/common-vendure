@@ -8,3 +8,6 @@ export * from './custom-customer-plugin/custom-customer.plugin';
 export * from './review-plugin/review.plugin';
 export * from './wishlist-plugin/wishlist.plugin';
 export * from './custom-facets-plugin/custom-facets.plugin';
+export * from './booking-plugin/booking.plugin';
+export * from './custom-seller-plugin/custom-seller.plugin';
+export * from './pre-order-inquiry-plugin/pre-order-inquiry.plugin';
