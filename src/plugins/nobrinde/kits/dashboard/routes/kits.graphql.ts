@@ -281,7 +281,6 @@ export const createKitVariantsDocument = graphql(`
   mutation CreateKitVariants($input: [CreateKitVariantInput!]!) {
     createKitVariants(input: $input) {
       id
-      name
     }
   }
 `);

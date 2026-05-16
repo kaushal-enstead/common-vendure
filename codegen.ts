@@ -14,22 +14,47 @@ const projectGenerates: Record<string, CodegenConfig['generates']> = {
     },
   },
   nobrinde: {
-    'src/plugins/nobrinde/customer-support/gql/generated.ts': {
+    './src/plugins/budget/gql/generated.ts': {
       ...pluginConfig,
-      documents: [
-        'src/plugins/nobrinde/budget/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/channel-personalization/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/custom-cms-plugin/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/customer-support/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/easypay-plugin/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/external-sync/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/kits/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/loyalty-points/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/nobrinde-entity/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/qr-code/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/user-credit/dashboard/**/*.graphql.ts',
-        'src/plugins/nobrinde/wire-transfer/dashboard/**/*.graphql.ts',
-      ],
+    },
+    './src/plugins/channel-personalization/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/custom-cms-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/custom-shipping-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/customer-support/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/easypay-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/external-sync/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/loyalty-points/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/kits/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/nobrinde-entity/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/qr-code/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/quantity-pricing/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/query-runner/gql/generated.ts': {
+      ...pluginConfig,
+    },
+    './src/plugins/user-credit/gql/generated.ts': {
+      ...pluginConfig,
     },
   },
 };
