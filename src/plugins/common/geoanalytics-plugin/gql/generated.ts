@@ -7,7 +7,7 @@ export type Scalars = {
   Boolean: { input: boolean; output: boolean; }
   Int: { input: number; output: number; }
   Float: { input: number; output: number; }
-  DateTime: { input: undefined; output: undefined; }
+  DateTime: { input: Date; output: Date; }
   JSON: { input: unknown; output: unknown; }
   Money: { input: number; output: number; }
   Upload: { input: unknown; output: unknown; }

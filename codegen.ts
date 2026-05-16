@@ -2,6 +2,10 @@ import type { CodegenConfig } from '@graphql-codegen/cli';
 
 const pluginConfig = {
   plugins: ['typescript'] as string[],
+  config: {
+    scalars: { Money: 'number', DateTime: 'Date' },
+    namingConvention: { enumValues: 'keep' },
+  },
 };
 
 const projectGenerates: Record<string, CodegenConfig['generates']> = {
@@ -21,9 +25,9 @@ const projectGenerates: Record<string, CodegenConfig['generates']> = {
     'src/plugins/common/custom-seller-plugin/gql/generated.ts': {
       ...pluginConfig,
     },
-    // 'src/plugins/common/file-cache-plugin/gql/generated.ts': {
-    //   ...pluginConfig,
-    // },
+    'src/plugins/common/file-cache-plugin/gql/generated.ts': {
+      ...pluginConfig,
+    },
     'src/plugins/common/geoanalytics-plugin/gql/generated.ts': {
       ...pluginConfig,
     },
