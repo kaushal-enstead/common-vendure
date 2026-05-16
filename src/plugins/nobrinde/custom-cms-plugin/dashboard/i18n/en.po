@@ -1,0 +1,994 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-01-20 17:21+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/categories.tsx:31
+msgid "{value}"
+msgstr "{value}"
+
+#. placeholder {0}: block.index + 1
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:138
+msgid "# {0}"
+msgstr "# {0}"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:141
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:96
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:126
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:105
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:131
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:125
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:228
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:126
+msgid "Active"
+msgstr "Active"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:112
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:128
+msgid "Add Block"
+msgstr "Add Block"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:112
+#~ msgid "Add category"
+#~ msgstr "Add category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/nav-link-children-builder.tsx:207
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-link-children-builder.tsx:200
+msgid "Add Child"
+msgstr "Add Child"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:194
+msgid "Add Children Instead"
+msgstr "Add Children Instead"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:80
+msgid "Add Column"
+msgstr "Add Column"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:138
+msgid "Add condition"
+msgstr "Add condition"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:424
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:223
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:216
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:20
+msgid "Add Item"
+msgstr "Add Item"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:229
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:231
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:273
+msgid "Add Link"
+msgstr "Add Link"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:217
+msgid "Add name"
+msgstr "Add name"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/target-urls-field.tsx:43
+msgid "Add URL"
+msgstr "Add URL"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:53
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alerts.tsx:43
+msgid "Alerts"
+msgstr "Alerts"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:127
+msgid "AND"
+msgstr "AND"
+
+#. placeholder {0}: selection.length
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:144
+msgid "Are you sure you want to delete {0} {entityName}?"
+msgstr "Are you sure you want to delete {0} {entityName}?"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:82
+msgid "Are you sure you want to delete this block?"
+msgstr "Are you sure you want to delete this block?"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:88
+msgid "Are you sure you want to duplicate this block?"
+msgstr "Are you sure you want to duplicate this block?"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:167
+msgid "Asset"
+msgstr "Asset"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:171
+msgid "Assets"
+msgstr "Assets"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:30
+msgid "Author"
+msgstr "Author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:35
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/authors.tsx:42
+msgid "Authors"
+msgstr "Authors"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/banner-type.tsx:37
+msgid "Banner"
+msgstr "Banner"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:160
+msgid "Banner Items"
+msgstr "Banner Items"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:37
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banners.tsx:42
+msgid "Banners"
+msgstr "Banners"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:249
+msgid "Block Content - Columns"
+msgstr "Block Content - Columns"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:45
+msgid "Block created successfully"
+msgstr "Block created successfully"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:46
+msgid "Block deleted successfully"
+msgstr "Block deleted successfully"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:57
+msgid "Block duplicated successfully"
+msgstr "Block duplicated successfully"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:217
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:35
+msgid "Block updated successfully"
+msgstr "Block updated successfully"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:177
+msgid "Blocks"
+msgstr "Blocks"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:33
+msgid "Blocks reordered successfully"
+msgstr "Blocks reordered successfully"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:294
+msgid "Button (Optional)"
+msgstr "Button (Optional)"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:62
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:182
+msgid "Button Configuration"
+msgstr "Button Configuration"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:72
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:192
+msgid "Button Label"
+msgstr "Button Label"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:106
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:229
+msgid "Button Type"
+msgstr "Button Type"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:272
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:207
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/categories.tsx:57
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:47
+msgid "Categories"
+msgstr "Categories"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/category-picker.tsx:62
+msgid "Category"
+msgstr "Category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/image-field-with-picker.tsx:26
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:323
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:382
+msgid "Change"
+msgstr "Change"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:152
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:146
+msgid "Child Links"
+msgstr "Child Links"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/image-field-with-picker.tsx:35
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:333
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:392
+msgid "Clear"
+msgstr "Clear"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:133
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:134
+msgid "Code"
+msgstr "Code"
+
+#. placeholder {0}: columnIndex + 1
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:155
+msgid "Column {0}"
+msgstr "Column {0}"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:119
+msgid "Conditions Mode"
+msgstr "Conditions Mode"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:276
+msgid "Content"
+msgstr "Content"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:53
+msgid "Content Type"
+msgstr "Content Type"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:132
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:87
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:117
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:96
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:122
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:116
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:123
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:124
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:97
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:93
+msgid "Create"
+msgstr "Create"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:133
+msgid "CSS Properties (JSON)"
+msgstr "CSS Properties (JSON)"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:142
+msgid "Delete"
+msgstr "Delete"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:111
+msgid "Deleted {deleted} {entityName}"
+msgstr "Deleted {deleted} {entityName}"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:158
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:150
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:116
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:175
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:196
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:209
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:146
+msgid "Description"
+msgstr "Description"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/document-type.tsx:37
+msgid "Document"
+msgstr "Document"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:121
+msgid "Document Asset"
+msgstr "Document Asset"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:165
+msgid "Document Items"
+msgstr "Document Items"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:40
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/documents.tsx:42
+msgid "Documents"
+msgstr "Documents"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:269
+msgid "Edit Block CSS"
+msgstr "Edit Block CSS"
+
+#. placeholder {0}: columnIndex + 1
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:195
+msgid "Edit Column CSS - Column {0}"
+msgstr "Edit Column CSS - Column {0}"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:29
+msgid "Edit CSS"
+msgstr "Edit CSS"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:150
+msgid "Enter CSS properties as JSON. Example: { \"backgroundColor\": \"#ffffff\" }"
+msgstr "Enter CSS properties as JSON. Example: { \"backgroundColor\": \"#ffffff\" }"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:49
+#~ msgid "Entity Type"
+#~ msgstr "Entity Type"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:146
+msgid "Error: {error}"
+msgstr "Error: {error}"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:121
+msgid "Explanation"
+msgstr "Explanation"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:114
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:237
+msgid "External"
+msgstr "External"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:97
+msgid "Failed to create alert"
+msgstr "Failed to create alert"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:75
+msgid "Failed to create author"
+msgstr "Failed to create author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:82
+msgid "Failed to create banner"
+msgstr "Failed to create banner"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:50
+msgid "Failed to create block"
+msgstr "Failed to create block"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:84
+msgid "Failed to create category"
+msgstr "Failed to create category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:87
+msgid "Failed to create document"
+msgstr "Failed to create document"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:81
+msgid "Failed to create faq"
+msgstr "Failed to create faq"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:76
+msgid "Failed to create footer"
+msgstr "Failed to create footer"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:74
+msgid "Failed to create header"
+msgstr "Failed to create header"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:85
+msgid "Failed to create news"
+msgstr "Failed to create news"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:81
+msgid "Failed to create page"
+msgstr "Failed to create page"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:118
+msgid "Failed to delete {failed} {entityName}"
+msgstr "Failed to delete {failed} {entityName}"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:117
+msgid "Failed to delete {failed} {entityName}: {allErrors}"
+msgstr "Failed to delete {failed} {entityName}: {allErrors}"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:50
+msgid "Failed to delete block"
+msgstr "Failed to delete block"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:61
+msgid "Failed to duplicate block"
+msgstr "Failed to duplicate block"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:206
+msgid "Failed to load block"
+msgstr "Failed to load block"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:38
+msgid "Failed to reorder blocks"
+msgstr "Failed to reorder blocks"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:97
+msgid "Failed to update alert"
+msgstr "Failed to update alert"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:75
+msgid "Failed to update author"
+msgstr "Failed to update author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:82
+msgid "Failed to update banner"
+msgstr "Failed to update banner"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:222
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:39
+msgid "Failed to update block"
+msgstr "Failed to update block"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:84
+msgid "Failed to update category"
+msgstr "Failed to update category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:87
+msgid "Failed to update document"
+msgstr "Failed to update document"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:81
+msgid "Failed to update faq"
+msgstr "Failed to update faq"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:76
+msgid "Failed to update footer"
+msgstr "Failed to update footer"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:74
+msgid "Failed to update header"
+msgstr "Failed to update header"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:85
+msgid "Failed to update news"
+msgstr "Failed to update news"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:81
+msgid "Failed to update page"
+msgstr "Failed to update page"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/faq-type.tsx:36
+msgid "FAQ"
+msgstr "FAQ"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:159
+msgid "FAQ Items"
+msgstr "FAQ Items"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:36
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faqs.tsx:42
+msgid "FAQs"
+msgstr "FAQs"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:160
+msgid "Field"
+msgstr "Field"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:37
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footers.tsx:38
+msgid "Footers"
+msgstr "Footers"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:35
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/headers.tsx:37
+msgid "Headers"
+msgstr "Headers"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:130
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:183
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:160
+msgid "Image"
+msgstr "Image"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:159
+msgid "Image URL or Asset"
+msgstr "Image URL or Asset"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:228
+msgid "Inactive"
+msgstr "Inactive"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:117
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:240
+msgid "Internal"
+msgstr "Internal"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:143
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:121
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:135
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:116
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:28
+msgid "Label"
+msgstr "Label"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:126
+#~ msgid "Limit"
+#~ msgstr "Limit"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:167
+msgid "Link"
+msgstr "Link"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:137
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:265
+msgid "Link Reference"
+msgstr "Link Reference"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:99
+msgid "Loading blocks..."
+msgstr "Loading blocks..."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:92
+#~ msgid "Loading categories..."
+#~ msgstr "Loading categories..."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:255
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/banner-type.tsx:52
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/document-type.tsx:46
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/faq-type.tsx:52
+msgid "Loading..."
+msgstr "Loading..."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:126
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:146
+msgid "Logo"
+msgstr "Logo"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:183
+msgid "Manage blocks for this page. Each block operation is saved immediately."
+msgstr "Manage blocks for this page. Each block operation is saved immediately."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:106
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:149
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:115
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:112
+msgid "Name"
+msgstr "Name"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:145
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:162
+msgid "Navigation Links"
+msgstr "Navigation Links"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:128
+msgid "New alert"
+msgstr "New alert"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:54
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alerts.tsx:104
+msgid "New Alert"
+msgstr "New Alert"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:83
+msgid "New author"
+msgstr "New author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:36
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/authors.tsx:102
+msgid "New Author"
+msgstr "New Author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:113
+msgid "New banner"
+msgstr "New banner"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:38
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banners.tsx:102
+msgid "New Banner"
+msgstr "New Banner"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:92
+msgid "New category"
+msgstr "New category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/categories.tsx:130
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:48
+msgid "New Category"
+msgstr "New Category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:118
+msgid "New document"
+msgstr "New document"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:41
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/documents.tsx:102
+msgid "New Document"
+msgstr "New Document"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:112
+msgid "New faq"
+msgstr "New faq"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:37
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faqs.tsx:111
+msgid "New FAQ"
+msgstr "New FAQ"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:119
+msgid "New footer"
+msgstr "New footer"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:38
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footers.tsx:67
+msgid "New Footer"
+msgstr "New Footer"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:120
+msgid "New header"
+msgstr "New header"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:36
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/headers.tsx:66
+msgid "New Header"
+msgstr "New Header"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:93
+msgid "New news"
+msgstr "New news"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:39
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news.tsx:93
+msgid "New News"
+msgstr "New News"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:45
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:89
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/pages.tsx:101
+msgid "New Page"
+msgstr "New Page"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:38
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news.tsx:42
+msgid "News"
+msgstr "News"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/banner-type.tsx:52
+msgid "No active banners found"
+msgstr "No active banners found"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:105
+#~ msgid "No active categories found"
+#~ msgstr "No active categories found"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/document-type.tsx:46
+msgid "No active documents found"
+msgstr "No active documents found"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/faq-type.tsx:52
+msgid "No active FAQs found"
+msgstr "No active FAQs found"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:384
+msgid "No banner items. Click on <0>Add Item</0> to start."
+msgstr "No banner items. Click on <0>Add Item</0> to start."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:108
+msgid "No blocks yet. Add your first block to start building the page."
+msgstr "No blocks yet. Add your first block to start building the page."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:225
+#~ msgid "No categories assigned"
+#~ msgstr "No categories assigned"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/nav-link-children-builder.tsx:174
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-link-children-builder.tsx:167
+msgid "No child links. Click on <0>Add Child</0> to start."
+msgstr "No child links. Click on <0>Add Child</0> to start."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:102
+msgid "No columns yet. Add your first column."
+msgstr "No columns yet. Add your first column."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:145
+msgid "No conditions yet. Add your first condition."
+msgstr "No conditions yet. Add your first condition."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:191
+msgid "No document items. Click on <0>Add Item</0> to start."
+msgstr "No document items. Click on <0>Add Item</0> to start."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:184
+msgid "No FAQ items. Click on <0>Add Item</0> to start."
+msgstr "No FAQ items. Click on <0>Add Item</0> to start."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:198
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:241
+msgid "No nav links. Click on <0>Add Link</0> to start."
+msgstr "No nav links. Click on <0>Add Link</0> to start."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:176
+msgid "No options available"
+msgstr "No options available"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:139
+#~ msgid "No results found"
+#~ msgstr "No results found"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:199
+msgid "No social links. Click on <0>Add Link</0> to start."
+msgstr "No social links. Click on <0>Add Link</0> to start."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:50
+msgid "No stats items. Click \"Add Item\" to add one."
+msgstr "No stats items. Click \"Add Item\" to add one."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/target-urls-field.tsx:14
+msgid "No target URLs. Click on <0>Add URL</0> to start."
+msgstr "No target URLs. Click on <0>Add URL</0> to start."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:87
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:207
+msgid "Open in new browser tab"
+msgstr "Open in new browser tab"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:82
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:202
+msgid "Open in New Tab"
+msgstr "Open in New Tab"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:180
+msgid "Operator"
+msgstr "Operator"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:130
+msgid "OR"
+msgstr "OR"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/pages.tsx:42
+msgid "Page Builder"
+msgstr "Page Builder"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:44
+msgid "Pages"
+msgstr "Pages"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/image-field-with-picker.tsx:48
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:415
+msgid "Pick"
+msgstr "Pick"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:71
+msgid "Please save the page first before adding blocks"
+msgstr "Please save the page first before adding blocks"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:90
+msgid "Please save the page first to add blocks"
+msgstr "Please save the page first to add blocks"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:112
+msgid "Question"
+msgstr "Question"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:84
+msgid "Related News"
+msgstr "Related News"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:280
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:210
+msgid "Save"
+msgstr "Save"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:181
+msgid "Save the page first to start adding blocks"
+msgstr "Save the page first to start adding blocks"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:117
+#~ msgid "Search categories..."
+#~ msgstr "Search categories..."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:93
+msgid "Search related news..."
+msgstr "Search related news..."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:40
+msgid "Select author"
+msgstr "Select author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/shared/category-picker.tsx:72
+msgid "Select category"
+msgstr "Select category"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:60
+#~ msgid "Select entity type"
+#~ msgstr "Select entity type"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:164
+msgid "Select field"
+msgstr "Select field"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:123
+msgid "Select mode"
+msgstr "Select mode"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:92
+msgid "Select related news"
+msgstr "Select related news"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:134
+msgid "Select type"
+msgstr "Select type"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:162
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:135
+msgid "SEO"
+msgstr "SEO"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:157
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:142
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:147
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:141
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:109
+msgid "Slug"
+msgstr "Slug"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:154
+msgid "Social Links"
+msgstr "Social Links"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:133
+msgid "Source Image"
+msgstr "Source Image"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:16
+msgid "Stats Items"
+msgstr "Stats Items"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:177
+msgid "Subtitle"
+msgstr "Subtitle"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:90
+msgid "Successfully created alert"
+msgstr "Successfully created alert"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:68
+msgid "Successfully created author"
+msgstr "Successfully created author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:75
+msgid "Successfully created banner"
+msgstr "Successfully created banner"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:76
+msgid "Successfully created category"
+msgstr "Successfully created category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:79
+msgid "Successfully created document"
+msgstr "Successfully created document"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:74
+msgid "Successfully created faq"
+msgstr "Successfully created faq"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:69
+msgid "Successfully created footer"
+msgstr "Successfully created footer"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:67
+msgid "Successfully created header"
+msgstr "Successfully created header"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:78
+msgid "Successfully created news"
+msgstr "Successfully created news"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:74
+msgid "Successfully created page"
+msgstr "Successfully created page"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:90
+msgid "Successfully updated alert"
+msgstr "Successfully updated alert"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:68
+msgid "Successfully updated author"
+msgstr "Successfully updated author"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:75
+msgid "Successfully updated banner"
+msgstr "Successfully updated banner"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:76
+msgid "Successfully updated category"
+msgstr "Successfully updated category"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:79
+msgid "Successfully updated document"
+msgstr "Successfully updated document"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:74
+msgid "Successfully updated faq"
+msgstr "Successfully updated faq"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:69
+msgid "Successfully updated footer"
+msgstr "Successfully updated footer"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:67
+msgid "Successfully updated header"
+msgstr "Successfully updated header"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:78
+msgid "Successfully updated news"
+msgstr "Successfully updated news"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:74
+msgid "Successfully updated page"
+msgstr "Successfully updated page"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:285
+msgid "Target URLs"
+msgstr "Target URLs"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:151
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:114
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:136
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:141
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:135
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:107
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:167
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:171
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:189
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:103
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:140
+msgid "Title"
+msgstr "Title"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/categories.tsx:90
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:123
+msgid "Type"
+msgstr "Type"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:129
+#~ msgid "Type at least 1 character to search..."
+#~ msgstr "Type at least 1 character to search..."
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:132
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:87
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:117
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:96
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:122
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:116
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:123
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:124
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:97
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:93
+msgid "Update"
+msgstr "Update"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:128
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:251
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:143
+msgid "URL"
+msgstr "URL"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:158
+msgid "Use as Parent Link Instead"
+msgstr "Use as Parent Link Instead"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:189
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:36
+msgid "Value"
+msgstr "Value"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:143
+msgid "Video URL or Asset"
+msgstr "Video URL or Asset"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:127
+msgid "When active, a banner is available in the shop"
+msgstr "When active, a banner is available in the shop"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:106
+msgid "When active, a category is available"
+msgstr "When active, a category is available"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:132
+msgid "When active, a document is available in the shop"
+msgstr "When active, a document is available in the shop"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:126
+msgid "When active, a faq is available in the shop"
+msgstr "When active, a faq is available in the shop"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:127
+msgid "When active, a page is available in the shop"
+msgstr "When active, a page is available in the shop"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:142
+msgid "When active, an alert is available in the shop"
+msgstr "When active, an alert is available in the shop"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:97
+msgid "When active, an author is available in the shop"
+msgstr "When active, an author is available in the shop"
+
+#: src/plugins/nobrinde/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:159
+msgid "Width"
+msgstr "Width"

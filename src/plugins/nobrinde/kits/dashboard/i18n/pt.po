@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-12-11 19:05+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"Report-Msgid-Bugs-To: \n"
+"Plural-Forms: \n"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:187
+#~ msgid "{0}"
+#~ msgstr "{0}"
+
+#: src/plugins/kits/dashboard/routes/kits.tsx:37
+#~ msgid "{value}"
+#~ msgstr "{value}"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:169
+msgid "Add facet value"
+msgstr "Adicionar valor de faceta"
+
+#. placeholder {0}: entityIds.length
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:159
+msgid "Add or remove facet values for {0} {entityType}"
+msgstr "Adicionar ou remover valores de faceta para {0} {entityType}"
+
+#. placeholder {0}: selection.length
+#: src/plugins/kits/dashboard/routes/components/delete-bulk-action.tsx:144
+msgid "Are you sure you want to delete {0} {entityName}?"
+msgstr "Tem certeza de que deseja excluir {0} {entityName}?"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:189
+msgid "Assets"
+msgstr "Ativos"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:254
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:94
+msgid "Create"
+msgstr "Criar"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:194
+msgid "Current facet values"
+msgstr "Valores atuais da faceta"
+
+#: src/plugins/kits/dashboard/routes/components/delete-bulk-action.tsx:142
+msgid "Delete"
+msgstr "Apagar"
+
+#: src/plugins/kits/dashboard/routes/components/delete-bulk-action.tsx:111
+msgid "Deleted {deleted} {entityName}"
+msgstr "Excluído(s) {deleted} {entityName}"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:135
+msgid "Description"
+msgstr "Descrição"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:142
+msgid "Disabled"
+msgstr "Desativado"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:183
+msgid "Discount"
+msgstr "Desconto"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:156
+#: src/plugins/kits/dashboard/routes/components/kit-bulk-actions.tsx:111
+msgid "Edit facet values"
+msgstr "Editar valores de faceta"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:137
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:142
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:103
+msgid "Enabled"
+msgstr "Ativado"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:180
+msgid "Facet Values"
+msgstr "Valores de faceta"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:77
+msgid "Failed to add kit variant"
+msgstr "Falha ao adicionar variante do kit"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:82
+msgid "Failed to create kit"
+msgstr "Falha ao criar kit"
+
+#: src/plugins/kits/dashboard/routes/components/delete-bulk-action.tsx:118
+msgid "Failed to delete {failed} {entityName}"
+msgstr "Falha ao excluir {failed} {entityName}"
+
+#: src/plugins/kits/dashboard/routes/components/delete-bulk-action.tsx:117
+msgid "Failed to delete {failed} {entityName}: {allErrors}"
+msgstr "Falha ao excluir {failed} {entityName}: {allErrors}"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:108
+msgid "Failed to delete kit variant"
+msgstr "Falha ao excluir variante do kit"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:82
+msgid "Failed to update kit"
+msgstr "Falha ao atualizar kit"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:95
+msgid "Failed to update kit variant"
+msgstr "Falha ao atualizar variante do kit"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:117
+msgid "Featured Asset"
+msgstr "Ativo em destaque"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:186
+msgid "Kit"
+msgstr "Kit"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:113
+msgid "Kit name"
+msgstr "Nome do kit"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:74
+msgid "Kit variant added"
+msgstr "Variante do kit adicionada"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:105
+msgid "Kit variant removed"
+msgstr "Variante do kit removida"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:92
+msgid "Kit variant updated"
+msgstr "Variante do kit atualizada"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:40
+#: src/plugins/kits/dashboard/routes/kits.tsx:57
+msgid "Kits"
+msgstr "Kits"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:241
+msgid "New facet values to add:"
+msgstr "Novos valores de faceta para adicionar:"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:40
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:90
+msgid "New kit"
+msgstr "Novo kit"
+
+#: src/plugins/kits/dashboard/routes/kits.tsx:179
+msgid "New Kit"
+msgstr "Novo Kit"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:223
+msgid "No facet values"
+msgstr "Sem valores de faceta"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:210
+#: src/plugins/kits/dashboard/routes/kits.tsx:78
+msgid "Price"
+msgstr "Preço"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:163
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:190
+msgid "SKU"
+msgstr "SKU"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:119
+msgid "Slug"
+msgstr "Slug"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:203
+msgid "Stock Levels"
+msgstr "Níveis de estoque"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:75
+msgid "Successfully created kit"
+msgstr "Kit criado com sucesso"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:77
+msgid "Successfully updated facet values for {entityIdsLength} {entityType}"
+msgstr "Valores de faceta atualizados com sucesso para {entityIdsLength} {entityType}"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:75
+msgid "Successfully updated kit"
+msgstr "Kit atualizado com sucesso"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:82
+msgid "The variant could not be added. Ensure the parent product is enabled."
+msgstr "Não foi possível adicionar a variante. Certifique-se de que o produto principal está ativado."
+
+#: src/plugins/kits/dashboard/routes/kits.tsx:60
+msgid "Type"
+msgstr "Tipo"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:260
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:94
+msgid "Update"
+msgstr "Atualizar"
+
+#: src/plugins/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:186
+msgid "Variant"
+msgstr "Variant"
+
+#: src/plugins/kits/dashboard/routes/components/edit-variant-table.tsx:126
+msgid "Variant Name"
+msgstr "Nome da variante"
+
+#: src/plugins/kits/dashboard/routes/kits_.$id.tsx:104
+msgid "When enabled, a kit is available in the shop"
+msgstr "Quando ativado, um kit está disponível na loja"

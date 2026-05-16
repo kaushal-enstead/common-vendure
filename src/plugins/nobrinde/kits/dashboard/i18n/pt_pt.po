@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-16 19:52+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt_pt\n"
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:169
+msgid "Add facet value"
+msgstr ""
+
+#. placeholder {0}: entityIds.length
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:159
+msgid "Add or remove facet values for {0} {entityType}"
+msgstr ""
+
+#. placeholder {0}: selection.length
+#: src/plugins/nobrinde/kits/dashboard/routes/components/delete-bulk-action.tsx:144
+msgid "Are you sure you want to delete {0} {entityName}?"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:189
+msgid "Assets"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:254
+msgid "Cancel"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:94
+msgid "Create"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:194
+msgid "Current facet values"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/delete-bulk-action.tsx:142
+msgid "Delete"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/delete-bulk-action.tsx:111
+msgid "Deleted {deleted} {entityName}"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:135
+msgid "Description"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:142
+msgid "Disabled"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:183
+msgid "Discount"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:156
+#: src/plugins/nobrinde/kits/dashboard/routes/components/kit-bulk-actions.tsx:111
+msgid "Edit facet values"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:137
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:142
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:103
+msgid "Enabled"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:180
+msgid "Facet Values"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:77
+msgid "Failed to add kit variant"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:82
+msgid "Failed to create kit"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/delete-bulk-action.tsx:118
+msgid "Failed to delete {failed} {entityName}"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/delete-bulk-action.tsx:117
+msgid "Failed to delete {failed} {entityName}: {allErrors}"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:108
+msgid "Failed to delete kit variant"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:82
+msgid "Failed to update kit"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:95
+msgid "Failed to update kit variant"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:117
+msgid "Featured Asset"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:186
+msgid "Kit"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:113
+msgid "Kit name"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:74
+msgid "Kit variant added"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:105
+msgid "Kit variant removed"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:92
+msgid "Kit variant updated"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:40
+#: src/plugins/nobrinde/kits/dashboard/routes/kits.tsx:57
+msgid "Kits"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:241
+msgid "New facet values to add:"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:40
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:90
+msgid "New kit"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits.tsx:179
+msgid "New Kit"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:223
+msgid "No facet values"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:210
+#: src/plugins/nobrinde/kits/dashboard/routes/kits.tsx:78
+msgid "Price"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:163
+msgid "Quantity"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:190
+msgid "SKU"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:119
+msgid "Slug"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:203
+msgid "Stock Levels"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:75
+msgid "Successfully created kit"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:77
+msgid "Successfully updated facet values for {entityIdsLength} {entityType}"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:75
+msgid "Successfully updated kit"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:82
+msgid "The variant could not be added. Ensure the parent product is enabled."
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits.tsx:60
+msgid "Type"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:260
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:94
+msgid "Update"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/assign-facet-values-dialog.tsx:186
+msgid "Variant"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/components/edit-variant-table.tsx:126
+msgid "Variant Name"
+msgstr ""
+
+#: src/plugins/nobrinde/kits/dashboard/routes/kits_.$id.tsx:104
+msgid "When enabled, a kit is available in the shop"
+msgstr ""

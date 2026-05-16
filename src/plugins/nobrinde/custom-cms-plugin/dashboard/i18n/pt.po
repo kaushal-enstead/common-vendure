@@ -1,0 +1,994 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-01-20 17:21+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/categories.tsx:31
+msgid "{value}"
+msgstr "{value}"
+
+#. placeholder {0}: block.index + 1
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:138
+msgid "# {0}"
+msgstr "# {0}"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:141
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:96
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:126
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:105
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:131
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:125
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:228
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:126
+msgid "Active"
+msgstr "Ativo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:112
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:128
+msgid "Add Block"
+msgstr "Adicionar bloco"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:112
+#~ msgid "Add category"
+#~ msgstr "Adicionar categoria"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/nav-link-children-builder.tsx:207
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-link-children-builder.tsx:200
+msgid "Add Child"
+msgstr "Adicionar filho"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:194
+msgid "Add Children Instead"
+msgstr "Adicionar filhos em vez disso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:80
+msgid "Add Column"
+msgstr "Adicionar coluna"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:130
+msgid "Add condition"
+msgstr "Adicionar condição"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:424
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:223
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:216
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:20
+msgid "Add Item"
+msgstr "Adicionar item"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:229
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:231
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:273
+msgid "Add Link"
+msgstr "Adicionar ligação"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:217
+msgid "Add name"
+msgstr "Adicionar nome"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/target-urls-field.tsx:43
+msgid "Add URL"
+msgstr "Adicionar URL"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:53
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alerts.tsx:43
+msgid "Alerts"
+msgstr "Alertas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:119
+msgid "AND"
+msgstr "E"
+
+#. placeholder {0}: selection.length
+#: src/plugins/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:144
+msgid "Are you sure you want to delete {0} {entityName}?"
+msgstr "Tem a certeza de que pretende eliminar {0} {entityName}?"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:82
+msgid "Are you sure you want to delete this block?"
+msgstr "Tem a certeza de que pretende eliminar este bloco?"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:88
+msgid "Are you sure you want to duplicate this block?"
+msgstr "Tem a certeza de que pretende duplicar este bloco?"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:167
+msgid "Asset"
+msgstr "Recurso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:171
+msgid "Assets"
+msgstr "Recursos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:30
+msgid "Author"
+msgstr "Autor"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:35
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/authors.tsx:42
+msgid "Authors"
+msgstr "Autores"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/banner-type.tsx:37
+msgid "Banner"
+msgstr "Banner"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:160
+msgid "Banner Items"
+msgstr "Itens do banner"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:37
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banners.tsx:42
+msgid "Banners"
+msgstr "Banners"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:243
+msgid "Block Content - Columns"
+msgstr "Conteúdo do bloco - Colunas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:45
+msgid "Block created successfully"
+msgstr "Bloco criado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:46
+msgid "Block deleted successfully"
+msgstr "Bloco eliminado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:57
+msgid "Block duplicated successfully"
+msgstr "Bloco duplicado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:211
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:35
+msgid "Block updated successfully"
+msgstr "Bloco atualizado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:177
+msgid "Blocks"
+msgstr "Blocos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:33
+msgid "Blocks reordered successfully"
+msgstr "Blocos reordenados com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:294
+msgid "Button (Optional)"
+msgstr "Botão (opcional)"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:62
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:182
+msgid "Button Configuration"
+msgstr "Configuração do botão"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:72
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:192
+msgid "Button Label"
+msgstr "Etiqueta do botão"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:106
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:229
+msgid "Button Type"
+msgstr "Tipo de botão"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:266
+#: src/plugins/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:207
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/categories.tsx:57
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:47
+msgid "Categories"
+msgstr "Categorias"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/category-picker.tsx:62
+msgid "Category"
+msgstr "Categoria"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/image-field-with-picker.tsx:26
+#: src/plugins/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:323
+#: src/plugins/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:382
+msgid "Change"
+msgstr "Alterar"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:152
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:146
+msgid "Child Links"
+msgstr "Ligações filhas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/image-field-with-picker.tsx:35
+#: src/plugins/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:333
+#: src/plugins/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:392
+msgid "Clear"
+msgstr "Limpar"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:133
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:134
+msgid "Code"
+msgstr "Código"
+
+#. placeholder {0}: columnIndex + 1
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:155
+msgid "Column {0}"
+msgstr "Coluna {0}"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:111
+msgid "Conditions Mode"
+msgstr "Modo das condições"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:276
+msgid "Content"
+msgstr "Conteúdo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:52
+msgid "Content Type"
+msgstr "Tipo de conteúdo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:132
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:87
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:117
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:96
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:122
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:116
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:123
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:124
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:97
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:93
+msgid "Create"
+msgstr "Criar"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:133
+msgid "CSS Properties (JSON)"
+msgstr "Propriedades CSS (JSON)"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:142
+msgid "Delete"
+msgstr "Eliminar"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:111
+msgid "Deleted {deleted} {entityName}"
+msgstr "Eliminado(s) {deleted} {entityName}"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:158
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:150
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:116
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:175
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:195
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:208
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:146
+msgid "Description"
+msgstr "Descrição"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/document-type.tsx:37
+msgid "Document"
+msgstr "Documento"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:121
+msgid "Document Asset"
+msgstr "Recurso do documento"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:165
+msgid "Document Items"
+msgstr "Itens do documento"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:40
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/documents.tsx:42
+msgid "Documents"
+msgstr "Documentos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:269
+msgid "Edit Block CSS"
+msgstr "Editar CSS do bloco"
+
+#. placeholder {0}: columnIndex + 1
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:195
+msgid "Edit Column CSS - Column {0}"
+msgstr "Editar CSS da coluna - Coluna {0}"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:29
+msgid "Edit CSS"
+msgstr "Editar CSS"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:150
+msgid "Enter CSS properties as JSON. Example: { \"backgroundColor\": \"#ffffff\" }"
+msgstr "Introduza propriedades CSS em JSON. Exemplo: { \"backgroundColor\": \"#ffffff\" }"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:49
+#~ msgid "Entity Type"
+#~ msgstr "Tipo de entidade"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:146
+msgid "Error: {error}"
+msgstr "Erro: {error}"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:121
+msgid "Explanation"
+msgstr "Explicação"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:114
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:237
+msgid "External"
+msgstr "Externo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:97
+msgid "Failed to create alert"
+msgstr "Falha ao criar alerta"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:75
+msgid "Failed to create author"
+msgstr "Falha ao criar autor"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:82
+msgid "Failed to create banner"
+msgstr "Falha ao criar banner"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:50
+msgid "Failed to create block"
+msgstr "Falha ao criar bloco"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:84
+msgid "Failed to create category"
+msgstr "Falha ao criar categoria"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:87
+msgid "Failed to create document"
+msgstr "Falha ao criar documento"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:81
+msgid "Failed to create faq"
+msgstr "Falha ao criar FAQ"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:76
+msgid "Failed to create footer"
+msgstr "Falha ao criar rodapé"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:74
+msgid "Failed to create header"
+msgstr "Falha ao criar cabeçalho"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:85
+msgid "Failed to create news"
+msgstr "Falha ao criar notícia"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:81
+msgid "Failed to create page"
+msgstr "Falha ao criar página"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:118
+msgid "Failed to delete {failed} {entityName}"
+msgstr "Falha ao eliminar {failed} {entityName}"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/delete-bulk-action.tsx:117
+msgid "Failed to delete {failed} {entityName}: {allErrors}"
+msgstr "Falha ao eliminar {failed} {entityName}: {allErrors}"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:50
+msgid "Failed to delete block"
+msgstr "Falha ao eliminar bloco"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:61
+msgid "Failed to duplicate block"
+msgstr "Falha ao duplicar bloco"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:200
+msgid "Failed to load block"
+msgstr "Falha ao carregar bloco"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:38
+msgid "Failed to reorder blocks"
+msgstr "Falha ao reordenar blocos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:97
+msgid "Failed to update alert"
+msgstr "Falha ao atualizar alerta"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:75
+msgid "Failed to update author"
+msgstr "Falha ao atualizar autor"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:82
+msgid "Failed to update banner"
+msgstr "Falha ao atualizar banner"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:216
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:39
+msgid "Failed to update block"
+msgstr "Falha ao atualizar bloco"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:84
+msgid "Failed to update category"
+msgstr "Falha ao atualizar categoria"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:87
+msgid "Failed to update document"
+msgstr "Falha ao atualizar documento"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:81
+msgid "Failed to update faq"
+msgstr "Falha ao atualizar FAQ"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:76
+msgid "Failed to update footer"
+msgstr "Falha ao atualizar rodapé"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:74
+msgid "Failed to update header"
+msgstr "Falha ao atualizar cabeçalho"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:85
+msgid "Failed to update news"
+msgstr "Falha ao atualizar notícia"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:81
+msgid "Failed to update page"
+msgstr "Falha ao atualizar página"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/faq-type.tsx:36
+msgid "FAQ"
+msgstr "FAQ"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:159
+msgid "FAQ Items"
+msgstr "Itens de FAQ"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:36
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faqs.tsx:42
+msgid "FAQs"
+msgstr "FAQs"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:152
+msgid "Field"
+msgstr "Campo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:37
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footers.tsx:38
+msgid "Footers"
+msgstr "Rodapés"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:35
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/headers.tsx:37
+msgid "Headers"
+msgstr "Cabeçalhos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:130
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:183
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:160
+msgid "Image"
+msgstr "Imagem"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:158
+msgid "Image URL or Asset"
+msgstr "URL da imagem ou recurso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-item.tsx:228
+msgid "Inactive"
+msgstr "Inativo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:117
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:240
+msgid "Internal"
+msgstr "Interno"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:143
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:121
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:135
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:115
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:28
+msgid "Label"
+msgstr "Etiqueta"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:126
+#~ msgid "Limit"
+#~ msgstr "Limite"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:167
+msgid "Link"
+msgstr "Ligação"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:137
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:265
+msgid "Link Reference"
+msgstr "Referência da ligação"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:99
+msgid "Loading blocks..."
+msgstr "A carregar blocos..."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:92
+#~ msgid "Loading categories..."
+#~ msgstr "A carregar categorias..."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:249
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/banner-type.tsx:52
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/document-type.tsx:46
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/faq-type.tsx:52
+msgid "Loading..."
+msgstr "A carregar..."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:126
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:146
+msgid "Logo"
+msgstr "Logótipo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:183
+msgid "Manage blocks for this page. Each block operation is saved immediately."
+msgstr "Gerir os blocos desta página. Cada operação sobre blocos é guardada de imediato."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:106
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:149
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:115
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:112
+msgid "Name"
+msgstr "Nome"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:145
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:162
+msgid "Navigation Links"
+msgstr "Ligações de navegação"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:128
+msgid "New alert"
+msgstr "Novo alerta"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:54
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alerts.tsx:104
+msgid "New Alert"
+msgstr "Novo alerta"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:83
+msgid "New author"
+msgstr "Novo autor"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:36
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/authors.tsx:102
+msgid "New Author"
+msgstr "Novo autor"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:113
+msgid "New banner"
+msgstr "Novo banner"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:38
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banners.tsx:102
+msgid "New Banner"
+msgstr "Novo banner"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:92
+msgid "New category"
+msgstr "Nova categoria"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/categories.tsx:130
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:48
+msgid "New Category"
+msgstr "Nova categoria"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:118
+msgid "New document"
+msgstr "Novo documento"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:41
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/documents.tsx:102
+msgid "New Document"
+msgstr "Novo documento"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:112
+msgid "New faq"
+msgstr "Nova FAQ"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:37
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faqs.tsx:111
+msgid "New FAQ"
+msgstr "Nova FAQ"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:119
+msgid "New footer"
+msgstr "Novo rodapé"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:38
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footers.tsx:67
+msgid "New Footer"
+msgstr "Novo rodapé"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:120
+msgid "New header"
+msgstr "Novo cabeçalho"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:36
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/headers.tsx:66
+msgid "New Header"
+msgstr "Novo cabeçalho"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:93
+msgid "New news"
+msgstr "Nova notícia"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:39
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news.tsx:93
+msgid "New News"
+msgstr "Nova notícia"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:45
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:89
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/pages.tsx:101
+msgid "New Page"
+msgstr "Nova página"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:38
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news.tsx:42
+msgid "News"
+msgstr "Notícias"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/banner-type.tsx:52
+msgid "No active banners found"
+msgstr "Nenhum banner ativo encontrado"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:105
+#~ msgid "No active categories found"
+#~ msgstr "Nenhuma categoria ativa encontrada"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/document-type.tsx:46
+msgid "No active documents found"
+msgstr "Nenhum documento ativo encontrado"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/faq-type.tsx:52
+msgid "No active FAQs found"
+msgstr "Nenhuma FAQ ativa encontrada"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:384
+msgid "No banner items. Click on <0>Add Item</0> to start."
+msgstr "Sem itens de banner. Clique em <0>Adicionar item</0> para começar."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:108
+msgid "No blocks yet. Add your first block to start building the page."
+msgstr "Ainda sem blocos. Adicione o primeiro bloco para começar a construir a página."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:225
+#~ msgid "No categories assigned"
+#~ msgstr "Nenhuma categoria atribuída"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/nav-link-children-builder.tsx:174
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-link-children-builder.tsx:167
+msgid "No child links. Click on <0>Add Child</0> to start."
+msgstr "Sem ligações filhas. Clique em <0>Adicionar filho</0> para começar."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:102
+msgid "No columns yet. Add your first column."
+msgstr "Ainda sem colunas. Adicione a primeira coluna."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:137
+msgid "No conditions yet. Add your first condition."
+msgstr "Ainda sem condições. Adicione a sua primeira condição."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/components/document-items-builder.tsx:191
+msgid "No document items. Click on <0>Add Item</0> to start."
+msgstr "Sem itens de documento. Clique em <0>Adicionar item</0> para começar."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:184
+msgid "No FAQ items. Click on <0>Add Item</0> to start."
+msgstr "Sem itens de FAQ. Clique em <0>Adicionar item</0> para começar."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/nav-links-builder.tsx:198
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:241
+msgid "No nav links. Click on <0>Add Link</0> to start."
+msgstr "Sem ligações de navegação. Clique em <0>Adicionar ligação</0> para começar."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:176
+msgid "No options available"
+msgstr "Nenhuma opção disponível"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:139
+#~ msgid "No results found"
+#~ msgstr "Nenhum resultado encontrado"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:199
+msgid "No social links. Click on <0>Add Link</0> to start."
+msgstr "Sem ligações sociais. Clique em <0>Adicionar ligação</0> para começar."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:50
+msgid "No stats items. Click \"Add Item\" to add one."
+msgstr "Sem itens de estatísticas. Clique em \"Adicionar item\" para adicionar um."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/target-urls-field.tsx:14
+msgid "No target URLs. Click on <0>Add URL</0> to start."
+msgstr "Sem URLs de destino. Clique em <0>Adicionar URL</0> para começar."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:87
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:207
+msgid "Open in new browser tab"
+msgstr "Abrir num novo separador do navegador"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:82
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:202
+msgid "Open in New Tab"
+msgstr "Abrir num novo separador"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:172
+msgid "Operator"
+msgstr "Operador"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:122
+msgid "OR"
+msgstr "OU"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/pages.tsx:42
+msgid "Page Builder"
+msgstr "Construtor de páginas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:44
+msgid "Pages"
+msgstr "Páginas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/image-field-with-picker.tsx:48
+#: src/plugins/custom-cms-plugin/dashboard/shared/asset-field-with-picker.tsx:415
+msgid "Pick"
+msgstr "Escolher"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:71
+msgid "Please save the page first before adding blocks"
+msgstr "Guarde a página primeiro antes de adicionar blocos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-list.tsx:90
+msgid "Please save the page first to add blocks"
+msgstr "Guarde a página primeiro para poder adicionar blocos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/faq-items-builder.tsx:112
+msgid "Question"
+msgstr "Pergunta"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:84
+msgid "Related News"
+msgstr "Notícias relacionadas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/block/block-content-modal.tsx:274
+#: src/plugins/custom-cms-plugin/dashboard/shared/css-editor-modal.tsx:210
+msgid "Save"
+msgstr "Guardar"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:181
+msgid "Save the page first to start adding blocks"
+msgstr "Guarde a página primeiro para começar a adicionar blocos"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:117
+#~ msgid "Search categories..."
+#~ msgstr "Pesquisar categorias..."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:93
+msgid "Search related news..."
+msgstr "Pesquisar notícias relacionadas..."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:40
+msgid "Select author"
+msgstr "Selecionar autor"
+
+#: src/plugins/custom-cms-plugin/dashboard/shared/category-picker.tsx:72
+msgid "Select category"
+msgstr "Selecionar categoria"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:60
+#~ msgid "Select entity type"
+#~ msgstr "Selecionar tipo de entidade"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:156
+msgid "Select field"
+msgstr "Selecionar campo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:115
+msgid "Select mode"
+msgstr "Selecionar modo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/components/news-selectors.tsx:92
+msgid "Select related news"
+msgstr "Selecionar notícias relacionadas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:134
+msgid "Select type"
+msgstr "Selecionar tipo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:162
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:135
+msgid "SEO"
+msgstr "SEO"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:157
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:142
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:147
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:141
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:109
+msgid "Slug"
+msgstr "Slug"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:154
+msgid "Social Links"
+msgstr "Ligações sociais"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:133
+msgid "Source Image"
+msgstr "Imagem de origem"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:16
+msgid "Stats Items"
+msgstr "Itens de estatísticas"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:176
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:90
+msgid "Successfully created alert"
+msgstr "Alerta criado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:68
+msgid "Successfully created author"
+msgstr "Autor criado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:75
+msgid "Successfully created banner"
+msgstr "Banner criado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:76
+msgid "Successfully created category"
+msgstr "Categoria criada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:79
+msgid "Successfully created document"
+msgstr "Documento criado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:74
+msgid "Successfully created faq"
+msgstr "FAQ criada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:69
+msgid "Successfully created footer"
+msgstr "Rodapé criado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:67
+msgid "Successfully created header"
+msgstr "Cabeçalho criado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:78
+msgid "Successfully created news"
+msgstr "Notícia criada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:74
+msgid "Successfully created page"
+msgstr "Página criada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:90
+msgid "Successfully updated alert"
+msgstr "Alerta atualizado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:68
+msgid "Successfully updated author"
+msgstr "Autor atualizado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:75
+msgid "Successfully updated banner"
+msgstr "Banner atualizado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:76
+msgid "Successfully updated category"
+msgstr "Categoria atualizada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:79
+msgid "Successfully updated document"
+msgstr "Documento atualizado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:74
+msgid "Successfully updated faq"
+msgstr "FAQ atualizada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:69
+msgid "Successfully updated footer"
+msgstr "Rodapé atualizado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:67
+msgid "Successfully updated header"
+msgstr "Cabeçalho atualizado com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:78
+msgid "Successfully updated news"
+msgstr "Notícia atualizada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:74
+msgid "Successfully updated page"
+msgstr "Página atualizada com sucesso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:285
+msgid "Target URLs"
+msgstr "URLs de destino"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:151
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:114
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:136
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:141
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:135
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:107
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:167
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:170
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:188
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:103
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:140
+msgid "Title"
+msgstr "Título"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/categories.tsx:90
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:123
+msgid "Type"
+msgstr "Tipo"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/components/category-selector.tsx:129
+#~ msgid "Type at least 1 character to search..."
+#~ msgstr "Escreva pelo menos 1 carácter para pesquisar..."
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:132
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:87
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:117
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:96
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:122
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:116
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/footer_.$id.tsx:123
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/header_.$id.tsx:124
+#: src/plugins/custom-cms-plugin/dashboard/routes/news/news_.$id.tsx:97
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:93
+msgid "Update"
+msgstr "Atualizar"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/components/alert-button-field.tsx:128
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/components/banner-items-builder.tsx:251
+#: src/plugins/custom-cms-plugin/dashboard/routes/footer/components/social-links-field.tsx:143
+msgid "URL"
+msgstr "URL"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/header/components/nav-links-builder.tsx:158
+msgid "Use as Parent Link Instead"
+msgstr "Usar como ligação principal em vez disso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/entity-type.tsx:181
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-types/stats-type.tsx:36
+msgid "Value"
+msgstr "Valor"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-editor-standalone.tsx:142
+msgid "Video URL or Asset"
+msgstr "URL do vídeo ou recurso"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/banner/banner_.$id.tsx:127
+msgid "When active, a banner is available in the shop"
+msgstr "Quando ativo, o banner fica disponível na loja"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/category/category_.$id.tsx:106
+msgid "When active, a category is available"
+msgstr "Quando ativa, a categoria fica disponível"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/document/document_.$id.tsx:132
+msgid "When active, a document is available in the shop"
+msgstr "Quando ativo, o documento fica disponível na loja"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/faq/faq_.$id.tsx:126
+msgid "When active, a faq is available in the shop"
+msgstr "Quando ativa, a FAQ fica disponível na loja"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/page_.$id.tsx:127
+msgid "When active, a page is available in the shop"
+msgstr "Quando ativa, a página fica disponível na loja"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/alert/alert_.$id.tsx:142
+msgid "When active, an alert is available in the shop"
+msgstr "Quando ativo, o alerta fica disponível na loja"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/author/author_.$id.tsx:97
+msgid "When active, an author is available in the shop"
+msgstr "Quando ativo, o autor fica disponível na loja"
+
+#: src/plugins/custom-cms-plugin/dashboard/routes/page-builder/components/column/column-builder.tsx:159
+msgid "Width"
+msgstr "Largura"

@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-16 19:52+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt_pt\n"
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:161
+msgid "Active"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:126
+msgid "Budget"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:143
+msgid "Channel type"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:145
+msgid "Code (sigla)"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:191
+msgid "Config (JSON)"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:126
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:122
+msgid "Created"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:167
+msgid "Created by"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:173
+msgid "Date created"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:185
+msgid "Date updated"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:199
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:141
+msgid "Discount"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:120
+msgid "Download PDF"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:169
+msgid "Email"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:120
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:116
+msgid "Internal ID"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:132
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:128
+msgid "Last updated"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:174
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:116
+msgid "Lines"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:163
+msgid "Mobile (telemovel)"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:149
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:151
+msgid "Name"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:177
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:119
+msgid "No lines"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:97
+msgid "Nobrinde Budget"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets.tsx:29
+msgid "Nobrinde Budgets"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels.tsx:22
+msgid "Nobrinde Channels"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:55
+msgid "Nobrinde Order"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders.tsx:22
+msgid "Nobrinde Orders"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users.tsx:22
+msgid "Nobrinde Sale users"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:187
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:64
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:126
+msgid "Order"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets.tsx:41
+msgid "PDF"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:157
+msgid "Phone (telefone)"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:184
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:132
+msgid "Product"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:193
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:135
+msgid "Qty"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:115
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:111
+msgid "Record info"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:129
+msgid "Reference"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/sale-users/nobrinde-sale-users_$id.tsx:139
+msgid "Seller ID (id_vendedor)"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:155
+msgid "Slug"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:147
+msgid "State"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:202
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:144
+msgid "Total"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/budgets/nobrinde-budgets_$id.tsx:196
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/orders/nobrinde-orders_$id.tsx:138
+msgid "Unit price"
+msgstr ""
+
+#: src/plugins/nobrinde/nobrinde-entity/dashboard/routes/channels/nobrinde-channels_$id.tsx:179
+msgid "Updated by"
+msgstr ""

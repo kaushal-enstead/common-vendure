@@ -17,8 +17,18 @@ const projectGenerates: Record<string, CodegenConfig['generates']> = {
     'src/plugins/nobrinde/customer-support/gql/generated.ts': {
       ...pluginConfig,
       documents: [
+        'src/plugins/nobrinde/budget/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/channel-personalization/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/custom-cms-plugin/dashboard/**/*.graphql.ts',
         'src/plugins/nobrinde/customer-support/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/easypay-plugin/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/external-sync/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/kits/dashboard/**/*.graphql.ts',
         'src/plugins/nobrinde/loyalty-points/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/nobrinde-entity/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/qr-code/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/user-credit/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/wire-transfer/dashboard/**/*.graphql.ts',
       ],
     },
   },
