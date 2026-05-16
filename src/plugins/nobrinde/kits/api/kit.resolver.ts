@@ -30,12 +30,12 @@ import {
   MutationUpdateKitsArgs,
   MutationUpdateKitVariantArgs,
   MutationUpdateKitVariantsArgs,
-  Permission,
   QueryKitArgs,
   QueryKitsArgs,
   QueryKitVariantArgs,
   QueryKitVariantsArgs,
 } from '../gql/generated';
+import { KitPermissions } from '../constants';
 
 @Resolver()
 export class KitResolver {
@@ -45,7 +45,7 @@ export class KitResolver {
   ) {}
 
   @Query()
-  @Allow(Permission.ReadKit)
+  @Allow(KitPermissions.Read)
   async kits(
     @Ctx() ctx: RequestContext,
     @Args() args: QueryKitsArgs,
@@ -55,7 +55,7 @@ export class KitResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadKit)
+  @Allow(KitPermissions.Read)
   async kit(
     @Ctx() ctx: RequestContext,
     @Args() args: QueryKitArgs,
@@ -75,7 +75,7 @@ export class KitResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadKit)
+  @Allow(KitPermissions.Read)
   async kitVariants(
     @Ctx() ctx: RequestContext,
     @Args() args: QueryKitVariantsArgs,
@@ -94,7 +94,7 @@ export class KitResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadKit)
+  @Allow(KitPermissions.Read)
   async kitVariant(
     @Ctx() ctx: RequestContext,
     @Args() args: QueryKitVariantArgs,
@@ -104,7 +104,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.CreateKit)
+  @Allow(KitPermissions.Create)
   async createKit(@Ctx() ctx: RequestContext, @Args() args: MutationCreateKitArgs): Promise<Kit> {
     const { input } = args;
     return this.kitService.create(ctx, input);
@@ -112,7 +112,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async updateKit(@Ctx() ctx: RequestContext, @Args() args: MutationUpdateKitArgs): Promise<Translated<Kit>> {
     const { input } = args;
     return await this.kitService.update(ctx, input);
@@ -120,7 +120,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async updateKits(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationUpdateKitsArgs,
@@ -130,7 +130,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.DeleteCatalog, Permission.DeleteKit)
+  @Allow(KitPermissions.Delete)
   async deleteKit(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationDeleteKitArgs,
@@ -140,7 +140,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.DeleteCatalog, Permission.DeleteKit)
+  @Allow(KitPermissions.Delete)
   async deleteKits(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationDeleteKitsArgs,
@@ -150,7 +150,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async createKitVariants(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationCreateKitVariantsArgs,
@@ -160,7 +160,7 @@ export class KitResolver {
   }
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async createKitVariant(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationCreateKitVariantArgs,
@@ -171,7 +171,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async updateKitVariant(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationUpdateKitVariantArgs,
@@ -182,7 +182,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async updateKitVariants(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationUpdateKitVariantsArgs,
@@ -193,7 +193,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.DeleteCatalog, Permission.DeleteKit)
+  @Allow(KitPermissions.Delete)
   async deleteKitVariant(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationDeleteKitVariantArgs,
@@ -203,7 +203,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.DeleteCatalog, Permission.DeleteKit)
+  @Allow(KitPermissions.Delete)
   async deleteKitVariants(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationDeleteKitVariantsArgs,
@@ -213,7 +213,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async assignKitsToChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationAssignKitsToChannelArgs,
@@ -223,7 +223,7 @@ export class KitResolver {
 
   @Transaction()
   @Mutation()
-  @Allow(Permission.UpdateCatalog, Permission.UpdateKit)
+  @Allow(KitPermissions.Update)
   async removeKitsFromChannel(
     @Ctx() ctx: RequestContext,
     @Args() args: MutationRemoveKitsFromChannelArgs,

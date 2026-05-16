@@ -8,6 +8,8 @@ import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
 import { BudgetPlugin, CustomerSupportPlugin, LoyaltyPointsPlugin } from '../../plugins/nobrinde';
 import { ChannelPersonalizationPlugin } from '../../plugins/nobrinde/channel-personalization/channel-personalization.plugin';
+import { EasypayPlugin } from '../../plugins/nobrinde/easypay-plugin/easypay.plugin';
+import { KitPlugin } from '../../plugins/nobrinde/kits/kits.plugin';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 const serverPort = +process.env.PORT || 3000;
@@ -205,5 +207,11 @@ export const nobrindeConfig: ProjectVendureConfig = {
     LoyaltyPointsPlugin.init({ couponCode: 'LOYALTY' }),
     BudgetPlugin.init({}),
     ChannelPersonalizationPlugin.init(),
+    EasypayPlugin.init({
+      apiUrl: process.env.EASYPAY_API_URL as string,
+      apiKey: process.env.EASYPAY_API_KEY as string,
+      accountId: process.env.EASYPAY_ACCOUNT_ID as string,
+    }),
+    KitPlugin.init({}),
   ],
 };
