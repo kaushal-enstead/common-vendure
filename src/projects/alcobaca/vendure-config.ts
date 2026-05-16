@@ -6,7 +6,7 @@ import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
-
+console.log('process.cwd()', process.cwd());
 export const alcobacaConfig: ProjectVendureConfig = {
   migrationPath: 'src/migrations/alcobaca',
 
@@ -24,7 +24,7 @@ export const alcobacaConfig: ProjectVendureConfig = {
   plugins: [
     AssetServerPlugin.init({
       route: 'assets',
-      assetUploadDir: path.join(__dirname, '../../static/assets/alcobaca'),
+      assetUploadDir: path.resolve(process.cwd(), 'static/alcobaca/assets'),
       assetUrlPrefix: (ctx, identifier) => assetUrlPrefix(ctx, identifier),
     }),
     EmailPlugin.init({
@@ -91,7 +91,7 @@ export const alcobacaConfig: ProjectVendureConfig = {
         // ...CourierPlugin.emailHandlers,
       ],
       templateLoader: new CustomLanguageAwareTemplateLoader(
-        path.join(__dirname, '../static/alcobaca/email/templates'),
+        path.join(process.cwd(), 'static/alcobaca/email/templates'),
       ),
       globalTemplateVars: {
         adminLoginUrl: process.env.API_HOST + '/admin/login',

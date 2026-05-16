@@ -31,7 +31,7 @@ export const evoraConfig: ProjectVendureConfig = {
     GeoAnalyticsPlugin.init({}),
     AssetServerPlugin.init({
       route: 'assets',
-      assetUploadDir: path.join(__dirname, '../../static/assets/evora'),
+      assetUploadDir: path.join(process.cwd(), 'static/evora/assets'),
       assetUrlPrefix: (ctx, identifier) => assetUrlPrefix(ctx, identifier),
     }),
     EmailPlugin.init({
@@ -98,7 +98,7 @@ export const evoraConfig: ProjectVendureConfig = {
         // ...CourierPlugin.emailHandlers,
       ],
       templateLoader: new CustomLanguageAwareTemplateLoader(
-        path.join(__dirname, '../static/evora/email/templates'),
+        path.join(process.cwd(), 'static/evora/email/templates'),
       ),
       globalTemplateVars: {
         adminLoginUrl: process.env.API_HOST + '/admin/login',
