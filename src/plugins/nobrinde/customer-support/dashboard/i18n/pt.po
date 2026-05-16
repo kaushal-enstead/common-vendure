@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-12-16 19:30+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:93
+msgid "Message added successfully"
+msgstr "Mensagem adicionada com sucesso"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:98
+msgid "Failed to add message"
+msgstr "Falha ao adicionar mensagem"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:138
+msgid "Open"
+msgstr "Aberto"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:139
+msgid "Closed"
+msgstr "Fechado"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:140
+msgid "Pending"
+msgstr "Pendente"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:142
+msgid "Select a status"
+msgstr "Selecione um estado"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:143
+msgid "Search status..."
+msgstr "Pesquisar estado..."
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:175
+msgid "Low"
+msgstr "Baixa"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:176
+msgid "Medium"
+msgstr "Média"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:177
+msgid "High"
+msgstr "Alta"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:178
+msgid "Urgent"
+msgstr "Urgente"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:180
+msgid "Select a priority"
+msgstr "Selecione uma prioridade"
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:181
+msgid "Search priority..."
+msgstr "Pesquisar prioridade..."
+
+#. js-lingui-explicit-id
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:229
+msgid "Type your message..."
+msgstr "Escreva a sua mensagem..."
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:102
+msgid "Active subjects are visible in the shop"
+msgstr "Os assuntos ativos são visíveis na loja"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:111
+msgid "Code"
+msgstr "Código"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:92
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:119
+msgid "Create"
+msgstr "Criar"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/components/chat-item.tsx:32
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:190
+msgid "Customer"
+msgstr "Cliente"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:124
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:197
+msgid "Description"
+msgstr "Descrição"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:202
+msgid "Discussions"
+msgstr "Discussões"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:101
+msgid "Is Active"
+msgstr "Está ativo"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:117
+msgid "Name"
+msgstr "Nome"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:88
+msgid "New subject"
+msgstr "Novo assunto"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects.tsx:95
+msgid "New Subject"
+msgstr "Novo assunto"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:115
+msgid "New ticket"
+msgstr "Novo pedido de suporte"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:166
+msgid "Priority"
+msgstr "Prioridade"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/components/chat-item.tsx:32
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:194
+msgid "Seller"
+msgstr "Vendedor"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:245
+msgid "Send"
+msgstr "Enviar"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:129
+msgid "Status"
+msgstr "Estado"
+
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:193
+msgid "Subject"
+msgstr "Assunto"
+
+#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:92
+#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:119
+msgid "Update"
+msgstr "Atualizar"
