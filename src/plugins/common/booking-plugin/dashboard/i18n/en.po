@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-04-22 12:52+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:395
+msgid "Add facet value…"
+msgstr "Add facet value…"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:211
+msgid "Add vendor message"
+msgstr "Add vendor message"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:724
+msgid "Assets"
+msgstr "Assets"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:431
+msgid "Available days"
+msgstr "Available days"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:453
+msgid "Available slots"
+msgstr "Available slots"
+
+#: src/plugins/booking-plugin/dashboard/index.tsx:14
+#~ msgid "Booking"
+#~ msgstr "Booking"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:108
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:127
+msgid "Booking order"
+msgstr "Booking order"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-list.tsx:53
+msgid "Booking orders"
+msgstr "Booking orders"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:575
+msgid "Collection"
+msgstr "Collection"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:576
+msgid "Collection is required"
+msgstr "Collection is required"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:185
+msgid "Comments"
+msgstr "Comments"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:372
+msgid "Create"
+msgstr "Create"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:168
+msgid "Customer"
+msgstr "Customer"
+
+#: src/plugins/booking-plugin/dashboard/bulk-actions.tsx:12
+msgid "Delete"
+msgstr "Delete"
+
+#: src/plugins/booking-plugin/dashboard/bulk-actions.tsx:13
+msgid "Delete selected services?"
+msgstr "Delete selected services?"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:600
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:693
+msgid "Description"
+msgstr "Description"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:538
+msgid "Details"
+msgstr "Details"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:421
+msgid "Enabled"
+msgstr "Enabled"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:378
+msgid "Facets"
+msgstr "Facets"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:247
+msgid "Failed to create"
+msgstr "Failed to create"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:261
+msgid "Failed to update"
+msgstr "Failed to update"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:647
+msgid "Form selection"
+msgstr "Form selection"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:496
+msgid "From"
+msgstr "From"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:628
+msgid "Keywords"
+msgstr "Keywords"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:225
+msgid "Label"
+msgstr "Label"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:212
+msgid "Message…"
+msgstr "Message…"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:543
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:691
+msgid "Name"
+msgstr "Name"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:544
+msgid "Name is required"
+msgstr "Name is required"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:463
+msgid "New"
+msgstr "New"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:367
+#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:113
+msgid "New service"
+msgstr "New service"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:97
+msgid "No"
+msgstr "No"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:188
+msgid "No comments yet."
+msgstr "No comments yet."
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:680
+msgid "No forms found. Create a form in the booking plugin first."
+msgstr "No forms found. Create a form in the booking plugin first."
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:469
+msgid "No slots yet. Use New to add availability windows."
+msgstr "No slots yet. Use New to add availability windows."
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:89
+msgid "Order updated"
+msgstr "Order updated"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:652
+msgid "Reservation form"
+msgstr "Reservation form"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:654
+msgid "Select a reservation form"
+msgstr "Select a reservation form"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:703
+msgid "Select a reservation form to preview its fields."
+msgstr "Select a reservation form to preview its fields."
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:581
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:582
+msgid "Select collection"
+msgstr "Select collection"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:666
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:667
+msgid "Select reservation form"
+msgstr "Select reservation form"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:616
+msgid "SEO"
+msgstr "SEO"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:612
+msgid "SEO & reservation form"
+msgstr "SEO & reservation form"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:635
+msgid "SEO description"
+msgstr "SEO description"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:352
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:360
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:367
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:166
+msgid "Service"
+msgstr "Service"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:242
+msgid "Service created"
+msgstr "Service created"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:256
+msgid "Service updated"
+msgstr "Service updated"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:39
+msgid "Services"
+msgstr "Services"
+
+#. placeholder {0}: index + 1
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:479
+msgid "Slot {0}"
+msgstr "Slot {0}"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:560
+msgid "Slug"
+msgstr "Slug"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:561
+msgid "Slug is required"
+msgstr "Slug is required"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:142
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:146
+msgid "Status"
+msgstr "Status"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:417
+msgid "Status & schedule"
+msgstr "Status & schedule"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:164
+msgid "Summary"
+msgstr "Summary"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:622
+msgid "Title"
+msgstr "Title"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:514
+msgid "To"
+msgstr "To"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:692
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:226
+msgid "Type"
+msgstr "Type"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:248
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:262
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:95
+msgid "Unknown error"
+msgstr "Unknown error"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-detail.tsx:372
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:137
+msgid "Update"
+msgstr "Update"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:94
+msgid "Update failed"
+msgstr "Update failed"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:227
+msgid "Value"
+msgstr "Value"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-order-detail.tsx:175
+msgid "View"
+msgstr "View"
+
+#: src/plugins/booking-plugin/dashboard/pages/booking-list.tsx:97
+msgid "Yes"
+msgstr "Yes"

@@ -1,11 +1,18 @@
 import type { ProjectVendureConfig } from '../types';
-import { FileCachePlugin } from '../../plugins/common/file-cache-plugin/file-cache.plugin';
+import {
+  CustomCustomerPlugin,
+  FileCachePlugin,
+  GeoAnalyticsPlugin,
+  MultivendorPlugin,
+  SharedPlugin,
+} from '../../plugins/common';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';
 import { defaultEmailHandlers, EmailPlugin } from '@vendure/email-plugin';
 import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
+import { BookingPlugin } from '../../plugins/common/booking-plugin/booking.plugin';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 export const evoraConfig: ProjectVendureConfig = {
@@ -26,7 +33,8 @@ export const evoraConfig: ProjectVendureConfig = {
     entityIdStrategy: new UuidIdStrategy(),
   },
   plugins: [
-    FileCachePlugin.init({ folderName: 'file-cache' }),
+    FileCachePlugin.init({ folderName: 'evora-file-cache' }),
+    GeoAnalyticsPlugin.init({}),
     AssetServerPlugin.init({
       route: 'assets',
       assetUploadDir: path.join(process.cwd(), 'static/evora/assets'),
@@ -106,5 +114,14 @@ export const evoraConfig: ProjectVendureConfig = {
         fromAddress: `"${process.env.MAIL_FROM_NAME}" <${process.env.MAIL_FROM_ADDRESS}>`,
       },
     }),
+    MultivendorPlugin.init({
+      platformFeePercent: 10,
+      platformFeeSKU: 'FEE',
+    }),
+    SharedPlugin.init({
+      orsApiKey: process.env.ORS_API_KEY!,
+    }),
+    CustomCustomerPlugin.init({}),
+    BookingPlugin.init({}),
   ],
 };

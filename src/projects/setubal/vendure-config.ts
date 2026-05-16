@@ -1,6 +1,5 @@
 import type { ProjectVendureConfig } from '../types';
-import { FileCachePlugin } from '../../plugins/common';
-import { GeoAnalyticsPlugin } from '../../plugins/setubal';
+import { FileCachePlugin, GeoAnalyticsPlugin } from '../../plugins/common';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';
@@ -29,7 +28,7 @@ export const setubalConfig: ProjectVendureConfig = {
     entityIdStrategy: new UuidIdStrategy(),
   },
   plugins: [
-    FileCachePlugin.init({ folderName: 'file-cache' }),
+    FileCachePlugin.init({ folderName: 'setubal-file-cache' }),
     GeoAnalyticsPlugin.init({}),
     AssetServerPlugin.init({
       route: 'assets',
