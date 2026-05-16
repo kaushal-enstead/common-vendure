@@ -41,6 +41,7 @@ declare global {
       VIZITAR_API_BASE_URL?: string;
       VIZITAR_VISIT_ID?: string;
       VIZITAR_API_SECRET?: string;
+      MARKETPLACE_API_SECRET?: string;
     }
   }
 }
