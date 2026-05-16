@@ -13,27 +13,27 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/plugins/nobrinde/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:155
+#: src/plugins/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:155
 msgid "Clear"
 msgstr "Clear"
 
-#: src/plugins/nobrinde/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:115
+#: src/plugins/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:115
 msgid "Clear date"
 msgstr "Clear date"
 
-#: src/plugins/nobrinde/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:143
+#: src/plugins/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:143
 msgid "Last synced at"
 msgstr "Last synced at"
 
-#: src/plugins/nobrinde/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:145
+#: src/plugins/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:145
 msgid "Set to clear (empty) to trigger a full sync on next run."
 msgstr "Set to clear (empty) to trigger a full sync on next run."
 
-#: src/plugins/nobrinde/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:110
-#: src/plugins/nobrinde/external-sync/dashboard/routes/sync-control/sync-control.tsx:22
+#: src/plugins/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:110
+#: src/plugins/external-sync/dashboard/routes/sync-control/sync-control.tsx:22
 msgid "Sync Control"
 msgstr "Sync Control"
 
-#: src/plugins/nobrinde/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:123
+#: src/plugins/external-sync/dashboard/routes/sync-control/sync-control_$id.tsx:123
 msgid "Sync table"
 msgstr "Sync table"

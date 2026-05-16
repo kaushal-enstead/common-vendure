@@ -53,7 +53,13 @@ export const syncVariantStocksTask = new ScheduledTask({
       SELECT TOP ${PAGE_SIZE}
           st.sku_variant AS sku_variant,
           st.has_stock AS has_stock,
-          st.stocks AS stocks
+          st.stocks AS stocks,
+          st.next_stocks_1 AS next_stocks_1,
+          st.next_date_1   AS next_date_1,
+          st.next_stocks_2 AS next_stocks_2,
+          st.next_date_2   AS next_date_2,
+          st.next_stocks_3 AS next_stocks_3,
+          st.next_date_3   AS next_date_3
       FROM VSTOCKS_DATA st
       WHERE (${keyExpr} <> N'')
         AND (@p0 IS NULL OR ${keyExpr} > CAST(@p0 AS NVARCHAR(512)))

@@ -199,6 +199,12 @@ declare module '@vendure/core/dist/entity/custom-entity-fields' {
     is_stockoff: boolean;
     is_discontinued: boolean;
     date_discontinued: string;
+    next_stocks_1: number | null;
+    next_date_1: Date | null;
+    next_stocks_2: number | null;
+    next_date_2: Date | null;
+    next_stocks_3: number | null;
+    next_date_3: Date | null;
   }
 
   interface QuantityPriceTier {

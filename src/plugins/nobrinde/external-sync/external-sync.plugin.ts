@@ -698,6 +698,72 @@ import { SyncRunnerService } from './services/sync-runner.service';
         readonly: true,
         ui: { tab: 'Discontinued' },
       },
+      {
+        name: 'next_stocks_1',
+        type: 'int',
+        nullable: true,
+        label: [
+          { languageCode: LanguageCode.en, value: 'Next Stock (1)' },
+          { languageCode: LanguageCode.pt, value: 'Próximo Stock (1)' },
+        ],
+        readonly: true,
+        ui: { tab: 'Future Stock' },
+      },
+      {
+        name: 'next_date_1',
+        type: 'datetime',
+        nullable: true,
+        label: [
+          { languageCode: LanguageCode.en, value: 'Next Stock Date (1)' },
+          { languageCode: LanguageCode.pt, value: 'Data de Próximo Stock (1)' },
+        ],
+        readonly: true,
+        ui: { tab: 'Future Stock' },
+      },
+      {
+        name: 'next_stocks_2',
+        type: 'int',
+        nullable: true,
+        label: [
+          { languageCode: LanguageCode.en, value: 'Next Stock (2)' },
+          { languageCode: LanguageCode.pt, value: 'Próximo Stock (2)' },
+        ],
+        readonly: true,
+        ui: { tab: 'Future Stock' },
+      },
+      {
+        name: 'next_date_2',
+        type: 'datetime',
+        nullable: true,
+        label: [
+          { languageCode: LanguageCode.en, value: 'Next Stock Date (2)' },
+          { languageCode: LanguageCode.pt, value: 'Data de Próximo Stock (2)' },
+        ],
+        readonly: true,
+        ui: { tab: 'Future Stock' },
+      },
+      {
+        name: 'next_stocks_3',
+        type: 'int',
+        nullable: true,
+        label: [
+          { languageCode: LanguageCode.en, value: 'Next Stock (3)' },
+          { languageCode: LanguageCode.pt, value: 'Próximo Stock (3)' },
+        ],
+        readonly: true,
+        ui: { tab: 'Future Stock' },
+      },
+      {
+        name: 'next_date_3',
+        type: 'datetime',
+        nullable: true,
+        label: [
+          { languageCode: LanguageCode.en, value: 'Next Stock Date (3)' },
+          { languageCode: LanguageCode.pt, value: 'Data de Próximo Stock (3)' },
+        ],
+        readonly: true,
+        ui: { tab: 'Future Stock' },
+      },
     );
 
     config.customFields.Collection.push(
