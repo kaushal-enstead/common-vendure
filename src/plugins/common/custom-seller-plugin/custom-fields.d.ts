@@ -1,4 +1,5 @@
 import '@vendure/core';
+import { Seller as SellerType, Collection } from '@vendure/core';
 
 declare module '@vendure/core' {
   interface Seller extends SellerType {
@@ -9,6 +10,14 @@ declare module '@vendure/core' {
     averageRating: number | null;
     reviewCount: number | null;
     variantCount: number;
+  }
+
+  interface Product {
+    isFavorite: boolean;
+    seller: Seller;
+    // campaignProduct: CampaignProducts | null;
+    averageRating: number | null;
+    reviewCount: number | null;
   }
 }
 declare module '@vendure/core/dist/entity/custom-entity-fields' {

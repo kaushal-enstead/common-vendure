@@ -105,7 +105,7 @@ export class CustomerGroupsService {
         });
 
         const history = Array.isArray(customer.customFields.history) ? customer.customFields.history : [];
-        history.push(loyaltyWalletHistory);
+        history.push(loyaltyWalletHistory as never);
         customer.customFields.points = balanceAfter;
         customer.customFields.history = history;
         await this.connection.getRepository(ctx, Customer).save(customer, { reload: false });

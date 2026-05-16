@@ -13,6 +13,8 @@ import {
   PreOrderInquiryPlugin,
   QrCodePlugin,
   MarketplaceApiPlugin,
+  CustomProductPlugin,
+  LoyaltyPointsPlugin,
 } from '../../plugins/common';
 import { UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
@@ -137,5 +139,9 @@ export const evoraConfig: ProjectVendureConfig = {
     PreOrderInquiryPlugin.init({}),
     QrCodePlugin.init(),
     MarketplaceApiPlugin.init({ sharedSecret: process.env.MARKETPLACE_API_SECRET ?? '' }),
+    CustomProductPlugin.init({}),
+    LoyaltyPointsPlugin.init({
+      couponCode: 'LOYALTY',
+    }),
   ],
 };
