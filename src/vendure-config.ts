@@ -9,7 +9,6 @@ import {
 } from '@vendure/core';
 import { DashboardPlugin } from '@vendure/dashboard/plugin';
 import { GraphiqlPlugin } from '@vendure/graphiql-plugin';
-import 'dotenv/config';
 import path from 'path';
 import { getProject } from './projects';
 import { mergeProjectConfig } from './projects/merge';
@@ -63,7 +62,34 @@ const baseConfig: VendureConfig = {
   plugins: [
     GraphiqlPlugin.init(),
     DefaultSchedulerPlugin.init(),
-    DefaultJobQueuePlugin.init({ useDatabaseForBuffer: true }),
+    DefaultJobQueuePlugin.init({
+      useDatabaseForBuffer: true,
+      pollInterval: queueName => {
+        let oneHour = 60 * 60 * 1000;
+        switch (queueName) {
+          case 'send-email':
+            return 1_000; // 1 second
+          case 'clean-sessions':
+            return 2 * oneHour;
+          case 'update-search-index':
+            return oneHour;
+          case 'apply-collection-filters':
+            return 1 * oneHour;
+          default:
+            return 10_000;
+        }
+      },
+      backoffStrategy: (queueName, attemptsMade, job) => {
+        if (queueName === 'send-email') {
+          return 10_000; // 10 seconds for email jobs
+        }
+        return 1000;
+      },
+      // The number of completed/failed/cancelled
+      keepJobsCount: 100,
+      // The interval at which to run the clean-up task.
+      cleanJobsSchedule: cron => cron.every(2).hours(),
+    }),
     DefaultSearchPlugin.init({ bufferUpdates: false, indexStockStatus: true }),
     DashboardPlugin.init({
       route: 'dashboard',

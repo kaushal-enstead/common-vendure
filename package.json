@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "populate": "ts-node ./src/populate.ts",
-    "dev:server": "ts-node ./src/index.ts",
-    "dev:worker": "ts-node ./src/index-worker.ts",
+    "ts": "ts-node -r ./src/setup-env.ts",
+    "dev:server": "nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
+    "dev:server:evora": "ENV_PATH=.env.evora nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
+    "dev:server:setubal": "ENV_PATH=.env.setubal nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
+    "dev:server:alcobaca": "ENV_PATH=.env.alcobaca nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
+    "dev:worker": "nodemon --exec 'npm run ts -- ./src/index-worker.ts' --ext ts",
     "dev:dashboard": "vite --clearScreen false",
     "dev": "concurrently --kill-others npm:dev:*",
     "build:server": "rimraf dist && tsc",
@@ -14,13 +18,15 @@
     "start:server": "node ./dist/index.js",
     "start:worker": "node ./dist/index-worker.js",
     "start": "concurrently npm:start:*",
-    "db:migrate": "npx vendure migrate",
+    "db:migrate": "npm run ts -- ./src/migrate.ts",
+    "db:migrate:evora": "ENV_PATH=.env.evora PROJECT_NAME=evora npm run ts -- ./src/migrate.ts",
+    "db:migrate:setubal": "ENV_PATH=.env.setubal PROJECT_NAME=setubal npm run ts -- ./src/migrate.ts",
+    "db:migrate:alcobaca": "ENV_PATH=.env.alcobaca PROJECT_NAME=alcobaca npm run ts -- ./src/migrate.ts",
     "prettier": "prettier . --write",
     "prettier:check": "prettier . --check",
     "codegen": "graphql-codegen --config codegen.ts",
     "generate:translations": "npx lingui extract --config lingui.config.js",
-    "compile:translations": "npx lingui compile --config lingui.config.js",
-    "project:evora": "PROJECT_NAME=evora concurrently --kill-others npm:dev:server npm:dev:worker npm:dev:dashboard"
+    "compile:translations": "npx lingui compile --config lingui.config.js"
   },
   "dependencies": {
     "@vendure/asset-server-plugin": "3.6.3",
@@ -37,6 +43,7 @@
     "@graphql-codegen/typescript": "^6.0.1",
     "@vendure/cli": "3.6.3",
     "concurrently": "9.2.1",
+    "nodemon": "^3.1.14",
     "rimraf": "^6.1.3",
     "ts-node": "10.9.2",
     "typescript": "6.0.3"

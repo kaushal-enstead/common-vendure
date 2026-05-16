@@ -2,7 +2,7 @@ import type { VendureConfig } from '@vendure/core';
 
 export enum ProjectName {
   Evora = 'evora',
-  Barrious = 'barrious',
+  Setubal = 'setubal',
   Alcobaca = 'alcobaca',
 }
 

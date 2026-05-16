@@ -1,12 +1,12 @@
 import type { ProjectVendureConfig } from './types';
 import { ProjectName } from './types';
 import { evoraConfig } from './evora/vendure-config';
-import { barriosConfig } from './barrious/vendure-config';
+import { setubalConfig } from './setubal/vendure-config';
 import { alcobacaConfig } from './alcobaca/vendure-config';
 
 const registry: Record<ProjectName, ProjectVendureConfig> = {
   [ProjectName.Evora]: evoraConfig,
-  [ProjectName.Barrious]: barriosConfig,
+  [ProjectName.Setubal]: setubalConfig,
   [ProjectName.Alcobaca]: alcobacaConfig,
 };
 
