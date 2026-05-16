@@ -10,7 +10,7 @@
     "dev:server:setubal": "ENV_PATH=env/.env.setubal nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
     "dev:server:alcobaca": "ENV_PATH=env/.env.alcobaca nodemon --exec 'npm run ts -- ./src/index.ts' --ext ts",
     "dev:worker": "nodemon --exec 'npm run ts -- ./src/index-worker.ts' --ext ts",
-    "dev:dashboard": "vite --clearScreen false",
+    "dev:dashboard": "PROJECT_NAME=nobrinde vite --clearScreen false",
     "dev": "concurrently --kill-others npm:dev:*",
     "build:server": "rimraf dist && tsc",
     "build": "npm run build:server && npm run build:dashboard",
@@ -41,6 +41,8 @@
     "compile:translations:alcobaca": "PROJECT_NAME=alcobaca npx lingui compile --config lingui.config.js"
   },
   "dependencies": {
+    "@headless-tree/core": "^1.6.3",
+    "@headless-tree/react": "^1.6.3",
     "@vendure/asset-server-plugin": "3.6.3",
     "@vendure/core": "3.6.3",
     "@vendure/dashboard": "3.6.3",
@@ -51,7 +53,8 @@
     "mysql2": "3.22.3",
     "pdfkit": "^0.18.0",
     "pg": "^8.20.0",
-    "probe-image-size": "^7.3.0"
+    "probe-image-size": "^7.3.0",
+    "qrcode": "^1.5.4"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^7.0.0",
