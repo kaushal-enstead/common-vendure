@@ -1,0 +1,35 @@
+<mjml>
+    <mj-head>
+        <mj-title>{{ title }}</mj-title>
+        <mj-preview>{{ storeDisplayName }} - Notification</mj-preview>
+        <mj-attributes>
+            <mj-all font-family="Inter, Arial, Helvetica, sans-serif" />
+            <mj-text color="#1f2937" font-size="14px" line-height="1.6" />
+            <mj-section padding="0" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            .brand-name {
+                font-size: 24px;
+                font-weight: 700;
+                letter-spacing: -0.01em;
+                color: #0f172a;
+            }
+            .intro-copy {
+                color: #475569;
+                font-size: 14px;
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#f3f6fb" width="680px">
+        <mj-section padding="32px 20px 16px 20px">
+            <mj-column background-color="#ffffff" border-radius="16px" padding="24px 24px 8px 24px">
+                {{#if logoUrl}}
+                    <mj-image src="{{ logoUrl }}" alt="{{ storeDisplayName }}" width="140px" padding="0 0 14px 0" align="center" />
+                {{/if}}
+                <mj-text css-class="brand-name" align="center">{{ storeDisplayName }}</mj-text>
+                {{#if emailHeaderHtml}}
+                    <mj-text css-class="intro-copy" align="center" padding-top="10px">{{{ emailHeaderHtml }}}</mj-text>
+                {{/if}}
+            </mj-column>
+        </mj-section>

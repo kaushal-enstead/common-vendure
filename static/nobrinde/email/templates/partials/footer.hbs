@@ -1,0 +1,26 @@
+<!--suppress ALL -->
+<mj-section padding="0 20px 28px 20px">
+    <mj-column background-color="#0f172a" border-radius="0 0 16px 16px" padding="20px 24px 24px 24px">
+        {{#if emailFooterHtml}}
+            <mj-text align="center" color="#e2e8f0" font-size="13px" line-height="1.65">
+                {{{ emailFooterHtml }}}
+            </mj-text>
+        {{/if}}
+        {{#if storeAddress}}
+            <mj-text align="center" color="#94a3b8" font-size="12px" padding-top="6px">
+                {{ storeAddress }}
+            </mj-text>
+        {{/if}}
+        <mj-divider border-color="#334155" border-width="1px" padding="14px 0 10px 0" />
+        <mj-text align="center" color="#cbd5e1" font-size="12px" line-height="1.8">
+            {{#if supportEmail}}
+                Support: <a href="mailto:{{ supportEmail }}" style="color:#ffffff; text-decoration:none;">{{ supportEmail }}</a><br />
+            {{/if}}
+            {{#if privacyPolicyUrl}}
+                <a href="{{ privacyPolicyUrl }}" style="color:#93c5fd; text-decoration:none;">Privacy policy</a>
+            {{/if}}
+        </mj-text>
+    </mj-column>
+</mj-section>
+</mj-body>
+</mjml>
