@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-12-16 19:30+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/allocator/allocator.tsx:123
+msgid "Allocate"
+msgstr "Allocate"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:127
+msgid "Currency to Point Conversion"
+msgstr "Currency to Point Conversion"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:117
+msgid "Enable Loyalty Discount"
+msgstr "Enable Loyalty Discount"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:118
+msgid "Enable loyalty discount for customers"
+msgstr "Enable loyalty discount for customers"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:128
+msgid "How many points per euro"
+msgstr "How many points per euro"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:145
+msgid "Loyalty Discount (%)"
+msgstr "Loyalty Discount (%)"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/allocator/allocator.tsx:116
+msgid "Loyalty points allocator"
+msgstr "Loyalty points allocator"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:103
+msgid "Loyalty points settings"
+msgstr "Loyalty points settings"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:134
+msgid "Max Points Redeemable at Once"
+msgstr "Max Points Redeemable at Once"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:136
+msgid "Maximum number of points that can be redeemed in a single transaction"
+msgstr "Maximum number of points that can be redeemed in a single transaction"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/allocator/allocator.tsx:133
+msgid "Points"
+msgstr "Points"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/allocator/allocator.tsx:134
+msgid "Points to allocate"
+msgstr "Points to allocate"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:46
+msgid "Settings"
+msgstr "Settings"
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:147
+msgid "This discount % will be applied per item when the customer redeems the minimum required loyalty points."
+msgstr "This discount % will be applied per item when the customer redeems the minimum required loyalty points."
+
+#: src/plugins/nobrinde/loyalty-points/dashboard/routes/settings/settings.tsx:108
+msgid "Update"
+msgstr "Update"

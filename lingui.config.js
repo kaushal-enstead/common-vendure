@@ -14,6 +14,10 @@ const projectCatalogs = {
       path: './src/plugins/nobrinde/customer-support/dashboard/i18n/{locale}',
       include: ['./src/plugins/nobrinde/customer-support/dashboard/**'],
     },
+    {
+      path: './src/plugins/nobrinde/loyalty-points/dashboard/i18n/{locale}',
+      include: ['./src/plugins/nobrinde/loyalty-points/dashboard/**'],
+    },
   ],
 };
 

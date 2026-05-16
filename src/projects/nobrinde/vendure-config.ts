@@ -6,7 +6,7 @@ import path from 'path';
 import { defaultEmailHandlers, EmailPlugin } from '@vendure/email-plugin';
 import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
-import { CustomerSupportPlugin } from '../../plugins/nobrinde';
+import { CustomerSupportPlugin, LoyaltyPointsPlugin } from '../../plugins/nobrinde';
 
 const IS_DEV = process.env.APP_ENV === 'dev';
 const serverPort = +process.env.PORT || 3000;
@@ -201,5 +201,6 @@ export const nobrindeConfig: ProjectVendureConfig = {
       },
     }),
     CustomerSupportPlugin.init({}),
+    LoyaltyPointsPlugin.init({ couponCode: 'LOYALTY' }),
   ],
 };

@@ -16,14 +16,16 @@ const projectGenerates: Record<string, CodegenConfig['generates']> = {
   nobrinde: {
     'src/plugins/nobrinde/customer-support/gql/generated.ts': {
       ...pluginConfig,
-      documents: ['src/plugins/nobrinde/customer-support/dashboard/**/*.graphql.ts'],
+      documents: [
+        'src/plugins/nobrinde/customer-support/dashboard/**/*.graphql.ts',
+        'src/plugins/nobrinde/loyalty-points/dashboard/**/*.graphql.ts',
+      ],
     },
   },
 };
 
 const project = process.env.PROJECT_NAME ?? 'evora';
 
-console.log(`Generating GraphQL types for project: ${project}`, projectGenerates[project]);
 const config: CodegenConfig = {
   overwrite: true,
   watch: false,

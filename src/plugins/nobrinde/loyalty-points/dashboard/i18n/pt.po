@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-12-16 19:30+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/plugins/loyalty-points/dashboard/routes/allocator/allocator.tsx:123
+msgid "Allocate"
+msgstr "Atribuir"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:127
+msgid "Currency to Point Conversion"
+msgstr "Conversão de moeda para pontos"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:117
+msgid "Enable Loyalty Discount"
+msgstr "Ativar desconto de fidelização"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:118
+msgid "Enable loyalty discount for customers"
+msgstr "Ativar desconto de fidelização para clientes"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:128
+msgid "How many points per euro"
+msgstr "Quantos pontos por euro"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:145
+msgid "Loyalty Discount (%)"
+msgstr "Desconto de fidelização (%)"
+
+#: src/plugins/loyalty-points/dashboard/routes/allocator/allocator.tsx:116
+msgid "Loyalty points allocator"
+msgstr "Atribuição de pontos de fidelização"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:103
+msgid "Loyalty points settings"
+msgstr "Definições de pontos de fidelização"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:134
+msgid "Max Points Redeemable at Once"
+msgstr "Máximo de pontos resgatáveis de uma vez"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:136
+msgid "Maximum number of points that can be redeemed in a single transaction"
+msgstr "Número máximo de pontos que podem ser resgatados numa única transação"
+
+#: src/plugins/loyalty-points/dashboard/routes/allocator/allocator.tsx:133
+msgid "Points"
+msgstr "Pontos"
+
+#: src/plugins/loyalty-points/dashboard/routes/allocator/allocator.tsx:134
+msgid "Points to allocate"
+msgstr "Pontos a atribuir"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:46
+msgid "Settings"
+msgstr "Definições"
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:147
+msgid "This discount % will be applied per item when the customer redeems the minimum required loyalty points."
+msgstr "Este desconto % será aplicado por artigo quando o cliente resgatar o mínimo de pontos de fidelização exigidos."
+
+#: src/plugins/loyalty-points/dashboard/routes/settings/settings.tsx:108
+msgid "Update"
+msgstr "Atualizar"

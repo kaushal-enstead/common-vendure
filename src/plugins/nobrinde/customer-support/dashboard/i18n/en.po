@@ -14,144 +14,144 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:93
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:93
 msgid "Message added successfully"
 msgstr "Message added successfully"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:98
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:98
 msgid "Failed to add message"
 msgstr "Failed to add message"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:138
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:138
 msgid "Open"
 msgstr "Open"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:139
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:139
 msgid "Closed"
 msgstr "Closed"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:140
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:140
 msgid "Pending"
 msgstr "Pending"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:142
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:142
 msgid "Select a status"
 msgstr "Select a status"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:143
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:143
 msgid "Search status..."
 msgstr "Search status..."
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:175
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:175
 msgid "Low"
 msgstr "Low"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:176
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:176
 msgid "Medium"
 msgstr "Medium"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:177
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:177
 msgid "High"
 msgstr "High"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:178
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:178
 msgid "Urgent"
 msgstr "Urgent"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:180
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:180
 msgid "Select a priority"
 msgstr "Select a priority"
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:181
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:181
 msgid "Search priority..."
 msgstr "Search priority..."
 
 #. js-lingui-explicit-id
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:229
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:229
 msgid "Type your message..."
 msgstr "Type your message..."
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:102
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:102
 msgid "Active subjects are visible in the shop"
 msgstr "Active subjects are visible in the shop"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:111
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:111
 msgid "Code"
 msgstr "Code"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:92
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:119
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:92
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:119
 msgid "Create"
 msgstr "Create"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/components/chat-item.tsx:32
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:190
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/components/chat-item.tsx:32
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:190
 msgid "Customer"
 msgstr "Customer"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:124
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:197
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:124
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:197
 msgid "Description"
 msgstr "Description"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:202
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:202
 msgid "Discussions"
 msgstr "Discussions"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:101
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:101
 msgid "Is Active"
 msgstr "Is Active"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:117
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:117
 msgid "Name"
 msgstr "Name"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:88
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:88
 msgid "New subject"
 msgstr "New subject"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects.tsx:95
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects.tsx:95
 msgid "New Subject"
 msgstr "New Subject"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:115
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:115
 msgid "New ticket"
 msgstr "New ticket"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:166
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:166
 msgid "Priority"
 msgstr "Priority"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/components/chat-item.tsx:32
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:194
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/components/chat-item.tsx:32
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:194
 msgid "Seller"
 msgstr "Seller"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:245
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:245
 msgid "Send"
 msgstr "Send"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:129
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:129
 msgid "Status"
 msgstr "Status"
 
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:193
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:193
 msgid "Subject"
 msgstr "Subject"
 
-#: src/plugins/customer-support/dashboard/routes/subject/subjects_.$id.tsx:92
-#: src/plugins/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:119
+#: src/plugins/nobrinde/customer-support/dashboard/routes/subject/subjects_.$id.tsx:92
+#: src/plugins/nobrinde/customer-support/dashboard/routes/ticket/tickets_.$id.tsx:119
 msgid "Update"
 msgstr "Update"
