@@ -14,14 +14,14 @@ import {
 import { SupportSubject } from '../entities/support-subject.entity';
 import { SupportSubjectService } from '../services/support-subject.service';
 import { DeletionResponse } from '@vendure/common/lib/generated-types';
-import { Permission } from '../gql/generated';
+import { SupportSubjectPermissions } from '../constants';
 
 @Resolver()
 export class SupportSubjectResolver {
   constructor(private supportSubjectService: SupportSubjectService) {}
 
   @Query()
-  @Allow(Permission.ReadSupportSubject)
+  @Allow(SupportSubjectPermissions.Read)
   async supportSubjects(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<SupportSubject> },
@@ -32,7 +32,7 @@ export class SupportSubjectResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadSupportSubject)
+  @Allow(SupportSubjectPermissions.Read)
   async supportSubject(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: string },
@@ -41,7 +41,7 @@ export class SupportSubjectResolver {
   }
 
   @Mutation()
-  @Allow(Permission.CreateSupportSubject)
+  @Allow(SupportSubjectPermissions.Create)
   @Transaction()
   async createSupportSubject(
     @Ctx() ctx: RequestContext,
@@ -51,7 +51,7 @@ export class SupportSubjectResolver {
   }
 
   @Mutation()
-  @Allow(Permission.UpdateSupportSubject)
+  @Allow(SupportSubjectPermissions.Update)
   @Transaction()
   async updateSupportSubject(
     @Ctx() ctx: RequestContext,
@@ -61,7 +61,7 @@ export class SupportSubjectResolver {
   }
 
   @Mutation()
-  @Allow(Permission.DeleteSupportSubject)
+  @Allow(SupportSubjectPermissions.Delete)
   @Transaction()
   async deleteSupportSubject(
     @Ctx() ctx: RequestContext,
@@ -71,7 +71,7 @@ export class SupportSubjectResolver {
   }
 
   @Mutation()
-  @Allow(Permission.DeleteSupportSubject)
+  @Allow(SupportSubjectPermissions.Delete)
   @Transaction()
   async deleteSupportSubjects(
     @Ctx() ctx: RequestContext,

@@ -12,7 +12,8 @@ import {
 } from '@vendure/core';
 
 import { SupportTicket } from '../entities/support-ticket.entity';
-import { AddSupportTicketMessageInput, CreateSupportTicketInput, Permission } from '../gql/generated';
+import { Permission } from '@vendure/common/lib/generated-types';
+import { AddSupportTicketMessageInput, CreateSupportTicketInput } from '../gql/generated';
 import { SupportTicketService } from '../services/support-ticket.service';
 
 @Resolver()

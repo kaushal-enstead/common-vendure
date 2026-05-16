@@ -4,7 +4,7 @@ import { Allow, Ctx, ListQueryOptions, RelationPaths, Relations, RequestContext 
 
 import { SupportSubject } from '../entities/support-subject.entity';
 import { SupportSubjectService } from '../services/support-subject.service';
-import { Permission } from '../gql/generated';
+import { Permission } from '@vendure/common/lib/generated-types';
 
 @Resolver()
 export class SupportSubjectShopResolver {

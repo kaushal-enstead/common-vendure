@@ -25,8 +25,20 @@
     "prettier": "prettier . --write",
     "prettier:check": "prettier . --check",
     "codegen": "graphql-codegen --config codegen.ts",
+    "codegen:evora": "PROJECT_NAME=evora graphql-codegen --config codegen.ts",
+    "codegen:setubal": "PROJECT_NAME=setubal graphql-codegen --config codegen.ts",
+    "codegen:nobrinde": "PROJECT_NAME=nobrinde graphql-codegen --config codegen.ts",
+    "codegen:alcobaca": "PROJECT_NAME=alcobaca graphql-codegen --config codegen.ts",
     "generate:translations": "npx lingui extract --config lingui.config.js",
-    "compile:translations": "npx lingui compile --config lingui.config.js"
+    "generate:translations:evora": "PROJECT_NAME=evora npx lingui extract --config lingui.config.js",
+    "generate:translations:setubal": "PROJECT_NAME=setubal npx lingui extract --config lingui.config.js",
+    "generate:translations:nobrinde": "PROJECT_NAME=nobrinde npx lingui extract --config lingui.config.js",
+    "generate:translations:alcobaca": "PROJECT_NAME=alcobaca npx lingui extract --config lingui.config.js",
+    "compile:translations": "npx lingui compile --config lingui.config.js",
+    "compile:translations:evora": "PROJECT_NAME=evora npx lingui compile --config lingui.config.js",
+    "compile:translations:setubal": "PROJECT_NAME=setubal npx lingui compile --config lingui.config.js",
+    "compile:translations:nobrinde": "PROJECT_NAME=nobrinde npx lingui compile --config lingui.config.js",
+    "compile:translations:alcobaca": "PROJECT_NAME=alcobaca npx lingui compile --config lingui.config.js"
   },
   "dependencies": {
     "@vendure/asset-server-plugin": "3.6.3",

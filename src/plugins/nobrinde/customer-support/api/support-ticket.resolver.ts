@@ -13,9 +13,9 @@ import {
 } from '@vendure/core';
 
 import { SupportTicket } from '../entities/support-ticket.entity';
+import { SupportTicketPermissions } from '../constants';
 import {
   AddSupportTicketMessageInput,
-  Permission,
   UpdateSupportTicketInput,
   UpdateSupportTicketStatusInput,
 } from '../gql/generated';
@@ -26,7 +26,7 @@ export class SupportTicketResolver {
   constructor(private supportTicketService: SupportTicketService) {}
 
   @Query()
-  @Allow(Permission.ReadSupportTicket)
+  @Allow(SupportTicketPermissions.Read)
   async supportTickets(
     @Ctx() ctx: RequestContext,
     @Args() args: { options: ListQueryOptions<SupportTicket> },
@@ -36,7 +36,7 @@ export class SupportTicketResolver {
   }
 
   @Query()
-  @Allow(Permission.ReadSupportTicket)
+  @Allow(SupportTicketPermissions.Read)
   async supportTicket(
     @Ctx() ctx: RequestContext,
     @Args() args: { id: string },
@@ -46,7 +46,7 @@ export class SupportTicketResolver {
   }
 
   @Mutation()
-  @Allow(Permission.UpdateSupportTicket)
+  @Allow(SupportTicketPermissions.Update)
   @Transaction()
   async updateSupportTicket(
     @Ctx() ctx: RequestContext,
@@ -56,7 +56,7 @@ export class SupportTicketResolver {
   }
 
   @Mutation()
-  @Allow(Permission.DeleteSupportTicket)
+  @Allow(SupportTicketPermissions.Delete)
   @Transaction()
   async deleteSupportTicket(
     @Ctx() ctx: RequestContext,
@@ -66,7 +66,7 @@ export class SupportTicketResolver {
   }
 
   @Mutation()
-  @Allow(Permission.DeleteSupportTicket)
+  @Allow(SupportTicketPermissions.Delete)
   @Transaction()
   async deleteSupportTickets(
     @Ctx() ctx: RequestContext,
@@ -76,7 +76,7 @@ export class SupportTicketResolver {
   }
 
   @Mutation()
-  @Allow(Permission.UpdateSupportTicket)
+  @Allow(SupportTicketPermissions.Update)
   @Transaction()
   async addSupportTicketMessage(
     @Ctx() ctx: RequestContext,
@@ -89,7 +89,7 @@ export class SupportTicketResolver {
   }
 
   @Mutation()
-  @Allow(Permission.UpdateSupportTicket)
+  @Allow(SupportTicketPermissions.Update)
   @Transaction()
   async updateSupportTicketStatus(
     @Ctx() ctx: RequestContext,

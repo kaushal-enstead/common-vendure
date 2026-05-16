@@ -30,14 +30,15 @@ export class CustomLanguageAwareTemplateLoader implements TemplateLoader {
 
   async loadPartials(): Promise<Partial[]> {
     const partialsPath = path.join(this.templatePath, 'partials');
+    if (!existsSync(partialsPath)) {
+      return [];
+    }
     const partialsFiles = await readdir(partialsPath);
     return Promise.all(
-      partialsFiles.map(async file => {
-        return {
-          name: path.basename(file, '.hbs'),
-          content: await readFile(path.join(partialsPath, file), 'utf-8'),
-        };
-      }),
+      partialsFiles.map(async file => ({
+        name: path.basename(file, '.hbs'),
+        content: await readFile(path.join(partialsPath, file), 'utf-8'),
+      })),
     );
   }
 }
