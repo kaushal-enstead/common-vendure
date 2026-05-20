@@ -1,5 +1,5 @@
 import type { ProjectVendureConfig } from '../types';
-import { FileCachePlugin } from '../../plugins/common/file-cache-plugin/file-cache.plugin';
+import { FileCachePlugin, EasypayPlugin } from '../../plugins/common';
 import { Channel, TransactionalConnection, UuidIdStrategy } from '@vendure/core';
 import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import path from 'path';
@@ -8,7 +8,6 @@ import { CustomLanguageAwareTemplateLoader } from '../email-template-loader';
 import { assetUrlPrefix } from '../asset-url-prefix';
 import { BudgetPlugin, CustomerSupportPlugin, LoyaltyPointsPlugin } from '../../plugins/nobrinde';
 import { ChannelPersonalizationPlugin } from '../../plugins/nobrinde/channel-personalization/channel-personalization.plugin';
-import { EasypayPlugin } from '../../plugins/nobrinde/easypay-plugin/easypay.plugin';
 import { KitPlugin } from '../../plugins/nobrinde/kits/kits.plugin';
 import { UserCreditPlugin } from '../../plugins/nobrinde/user-credit/user-credit.plugin';
 import { WireTransferPlugin } from '../../plugins/nobrinde/wire-transfer/wire-transfer.plugin';

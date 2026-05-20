@@ -12,9 +12,6 @@ import {
   Logger,
 } from '@vendure/core';
 import { EasypaySdkService } from '../services/easypay-sdk.service';
-import { PluginInitOptions } from '../types';
-import { EASYPAY_PLUGIN_OPTIONS } from '../constants';
-import { Inject } from '@nestjs/common';
 
 @ObjectType()
 export class EasypayCheckoutResult {
@@ -26,7 +23,6 @@ export class EasypayCheckoutResult {
 @Resolver()
 export class EasypaySdkShopResolver {
   constructor(
-    @Inject(EASYPAY_PLUGIN_OPTIONS) private options: PluginInitOptions,
     private easypaySdkService: EasypaySdkService,
     private orderService: OrderService,
     private connection: TransactionalConnection,
@@ -144,13 +140,14 @@ export class EasypaySdkShopResolver {
 
     // 2) Settings de plataforma
     const settings = await this.globalSettings.getSettings(ctx);
-    const cf: any = (settings as any).customFields || {};
+    const cf = settings.customFields || {};
 
     const percentFee = (() => {
       const v = cf.percentageFee;
       if (typeof v === 'number') return v;
-      if (typeof v === 'string') {
-        const s = v
+      if (v && typeof v === 'string') {
+        const s = cf.percentageFee
+          .toString()
           .replace(/[^\d,.\-]/g, '')
           .replace(/\./g, '')
           .replace(',', '.');
@@ -166,7 +163,7 @@ export class EasypaySdkShopResolver {
       const v = cf.fixedFee;
       if (typeof v === 'number') return Number.isInteger(v) ? v : Math.round(v * 100);
       if (typeof v === 'string') {
-        const raw = v.trim();
+        const raw = cf.percentageFee.toString().trim();
         const hasDecimal = /[.,]/.test(raw);
         if (!hasDecimal) {
           const n = parseInt(raw.replace(/[^\d]/g, ''), 10);
@@ -184,7 +181,7 @@ export class EasypaySdkShopResolver {
       return 0;
     })();
 
-    const platformAccount = this.options.accountId;
+    const platformAccount = cf.easypayAccountUid as string;
     if (!platformAccount) {
       throw new Error('Missing EasyPay platform account UID in global settings');
     }

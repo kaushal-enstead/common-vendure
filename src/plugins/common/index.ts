@@ -15,3 +15,4 @@ export * from './qr-code/qr-code.plugin';
 export * from './marketplace-api-plugin/marketplace-api.plugin';
 export * from './loyalty-points-plugin/loyalty-points.plugin';
 export * from './custom-product-plugin/custom-product.plugin';
+export * from './easypay-plugin/easypay.plugin';
