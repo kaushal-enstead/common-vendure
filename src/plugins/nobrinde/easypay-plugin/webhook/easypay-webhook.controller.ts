@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Headers, Res } from '@nestjs/common';
+import { Controller, Post, Body, Headers, Res, Inject } from '@nestjs/common';
 import { Response } from 'express';
 import {
   OrderService,
@@ -12,11 +12,13 @@ import {
   GlobalSettingsService,
 } from '@vendure/core';
 import { EasypaySdkService } from '../services/easypay-sdk.service';
-import { EASYPAY_METHOD_CODE } from '../constants';
+import { EASYPAY_METHOD_CODE, EASYPAY_PLUGIN_OPTIONS } from '../constants';
+import { PluginInitOptions } from '../types';
 
 @Controller('webhooks')
 export class EasypayWebhookController {
   constructor(
+    @Inject(EASYPAY_PLUGIN_OPTIONS) private options: PluginInitOptions,
     private readonly orderService: OrderService,
     private readonly requestContextService: RequestContextService,
     private readonly connection: TransactionalConnection,
@@ -450,7 +452,7 @@ export class EasypayWebhookController {
     // 1) Platform Settings
     const settings = await this.globalSettings.getSettings(ctx);
     const cf: any = (settings as any).customFields ?? {};
-    const platformAccount = cf.easypayAccountUid as string;
+    const platformAccount = this.options.accountId;
     if (!platformAccount) throw new Error('Missing EasyPay platform account UID');
 
     const percentFee = (() => {

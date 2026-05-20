@@ -12,6 +12,9 @@ import {
   Logger,
 } from '@vendure/core';
 import { EasypaySdkService } from '../services/easypay-sdk.service';
+import { PluginInitOptions } from '../types';
+import { EASYPAY_PLUGIN_OPTIONS } from '../constants';
+import { Inject } from '@nestjs/common';
 
 @ObjectType()
 export class EasypayCheckoutResult {
@@ -23,6 +26,7 @@ export class EasypayCheckoutResult {
 @Resolver()
 export class EasypaySdkShopResolver {
   constructor(
+    @Inject(EASYPAY_PLUGIN_OPTIONS) private options: PluginInitOptions,
     private easypaySdkService: EasypaySdkService,
     private orderService: OrderService,
     private connection: TransactionalConnection,
@@ -180,7 +184,7 @@ export class EasypaySdkShopResolver {
       return 0;
     })();
 
-    const platformAccount = cf.easypayAccountUid as string;
+    const platformAccount = this.options.accountId;
     if (!platformAccount) {
       throw new Error('Missing EasyPay platform account UID in global settings');
     }
